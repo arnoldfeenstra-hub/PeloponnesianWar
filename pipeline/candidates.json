@@ -1,0 +1,4970 @@
+[
+ {
+  "req": "Adeimantus (son of Leucolophides)",
+  "title": "Adeimantus (son of Leucolophides)",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "5th-century BC Greek general",
+  "kind": "person"
+ },
+ {
+  "req": "Aetolian campaign",
+  "title": "Aetolian campaign",
+  "seed": true,
+  "links": 0,
+  "infobox": "infobox military conflict",
+  "desc": "Military campaign during the Peloponnesian War (426 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Affair of Epidamnus",
+  "title": "Affair of Epidamnus",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox military conflict",
+  "desc": "Coup by Epidamnus' democratic faction (c. 436 \u2013 433 BCE)",
+  "kind": "event"
+ },
+ {
+  "req": "Agias of Sparta",
+  "title": "Agias of Sparta",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "5th-century Spartan seer",
+  "kind": "person"
+ },
+ {
+  "req": "Agis II",
+  "title": "Agis II",
+  "seed": true,
+  "links": 18,
+  "infobox": "infobox royalty",
+  "desc": "Eurypontid king of Sparta from 427 to 400/399 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Alcamenes, son of Sthenelaides",
+  "title": "Alcamenes, son of Sthenelaides",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "5th-century BC Spartan general",
+  "kind": "person"
+ },
+ {
+  "req": "Alcibiades",
+  "title": "Alcibiades",
+  "seed": true,
+  "links": 47,
+  "infobox": "infobox person",
+  "desc": "Athenian general and statesman (c. 450\u2013404 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Alcidas",
+  "title": "Alcidas",
+  "seed": true,
+  "links": 3,
+  "infobox": "",
+  "desc": "5th-century BC Spartan admiral",
+  "kind": "person"
+ },
+ {
+  "req": "Andocides",
+  "title": "Andocides",
+  "seed": true,
+  "links": 4,
+  "infobox": "",
+  "desc": "Greek logographer and orator (c.440\u2013c.390 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Andromache (play)",
+  "title": "Andromache (play)",
+  "seed": true,
+  "links": 0,
+  "infobox": "infobox play",
+  "desc": "Ancient Greek tragedy by Euripides",
+  "kind": "work"
+ },
+ {
+  "req": "Aneristus",
+  "title": "Aneristus",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "",
+  "kind": "person"
+ },
+ {
+  "req": "Antiochus (admiral)",
+  "title": "Antiochus (admiral)",
+  "seed": true,
+  "links": 2,
+  "infobox": "",
+  "desc": "Athenian naval general (died 406 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Antisthenes of Sparta",
+  "title": "Antisthenes of Sparta",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Spartan admiral, active 412\u2013399 BCE",
+  "kind": "person"
+ },
+ {
+  "req": "Anytus",
+  "title": "Anytus",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Late 5th/early-4th century BC Athenian politician",
+  "kind": "person"
+ },
+ {
+  "req": "Aracus (navarch)",
+  "title": "Aracus (navarch)",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Spartan military commander, 5th/4th-century BC",
+  "kind": "person"
+ },
+ {
+  "req": "Archestratus (general)",
+  "title": "Archestratus (general)",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "5th-century BC Athenian general",
+  "kind": "person"
+ },
+ {
+  "req": "Archetimus",
+  "title": "Archetimus",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Ancient personal name",
+  "kind": "person"
+ },
+ {
+  "req": "Archidamus II",
+  "title": "Archidamus II",
+  "seed": true,
+  "links": 12,
+  "infobox": "infobox royalty",
+  "desc": "Eurypontid king of Sparta from 469/8 to 427/6 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Argileonis",
+  "title": "Argileonis",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Mother of 5th-century BC Spartan officer, Brasidas",
+  "kind": "person"
+ },
+ {
+  "req": "Aristeus",
+  "title": "Aristeus",
+  "seed": true,
+  "links": 2,
+  "infobox": "",
+  "desc": "5th century BCE Corinthian general",
+  "kind": "person"
+ },
+ {
+  "req": "Aristeus (ancient Greece)",
+  "title": "Aristeus (ancient Greece)",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "",
+  "kind": null
+ },
+ {
+  "req": "Aristogenes (general)",
+  "title": "Aristogenes (general)",
+  "seed": true,
+  "links": 2,
+  "infobox": "",
+  "desc": "Late 5th-century BC Greek general",
+  "kind": "person"
+ },
+ {
+  "req": "Ariston of Corinth",
+  "title": "Ariston of Corinth",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "",
+  "kind": "person"
+ },
+ {
+  "req": "Artaphernes (emissary)",
+  "title": "Artaphernes (emissary)",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Ancient Persian diplomat sent to Sparta in an anecdote of Thucydides",
+  "kind": "person"
+ },
+ {
+  "req": "Artas of Messapia",
+  "title": "Artas of Messapia",
+  "seed": true,
+  "links": 0,
+  "infobox": "infobox monarch",
+  "desc": "5th-century BC king of the Messapians",
+  "kind": "person"
+ },
+ {
+  "req": "Artemon (engineer)",
+  "title": "Artemon (engineer)",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Ancient Greek builder of siege engines in the 5th century BCE",
+  "kind": "person"
+ },
+ {
+  "req": "Asopius",
+  "title": "Asopius",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Ancient Greeks related to the Peloponnesian War",
+  "kind": "person"
+ },
+ {
+  "req": "Astyochus",
+  "title": "Astyochus",
+  "seed": true,
+  "links": 6,
+  "infobox": "",
+  "desc": "5th-century BC Spartan navarch",
+  "kind": "person"
+ },
+ {
+  "req": "Atalanti Island",
+  "title": "Atalanti Island",
+  "seed": true,
+  "links": 0,
+  "infobox": "infobox islands",
+  "desc": "Small uninhabited island in the North Euboean Gulf",
+  "kind": null
+ },
+ {
+  "req": "Athenaeus of Sparta",
+  "title": "Athenaeus of Sparta",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Ancient Spartan general",
+  "kind": "person"
+ },
+ {
+  "req": "Athenian coup of 411 BC",
+  "title": "Athenian coup of 411 BC",
+  "seed": true,
+  "links": 10,
+  "infobox": "infobox civil conflict",
+  "desc": "'The Four Hundred' oligarchy replaces the democratic government",
+  "kind": "event"
+ },
+ {
+  "req": "Autocles, son of Tolmaeus",
+  "title": "Autocles, son of Tolmaeus",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "5th-century BC Athenian general",
+  "kind": "person"
+ },
+ {
+  "req": "Axiochus",
+  "title": "Axiochus",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Late 5th-century BC Athenian politician",
+  "kind": "person"
+ },
+ {
+  "req": "Battle of Abydos",
+  "title": "Battle of Abydos",
+  "seed": true,
+  "links": 6,
+  "infobox": "infobox military conflict",
+  "desc": "411 BCE naval engagement between Athens and Sparta, part of the Peloponnesian War",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Aegospotami",
+  "title": "Battle of Aegospotami",
+  "seed": true,
+  "links": 17,
+  "infobox": "infobox military conflict",
+  "desc": "Naval battle in the Peloponnesian War",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Amphipolis",
+  "title": "Battle of Amphipolis",
+  "seed": true,
+  "links": 9,
+  "infobox": "infobox military conflict",
+  "desc": "Military investment of Amphipolis by Sparta (422 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Arginusae",
+  "title": "Battle of Arginusae",
+  "seed": true,
+  "links": 18,
+  "infobox": "infobox military conflict",
+  "desc": "Naval battle during the Peloponnesian War (406 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Cynossema",
+  "title": "Battle of Cynossema",
+  "seed": true,
+  "links": 8,
+  "infobox": "infobox military conflict",
+  "desc": "Naval battle during the Second Peloponnesian War (411 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Cyzicus",
+  "title": "Battle of Cyzicus",
+  "seed": true,
+  "links": 12,
+  "infobox": "infobox military conflict",
+  "desc": "Land and sea battle between Athens and Sparta in 410 BC",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Delium",
+  "title": "Battle of Delium",
+  "seed": true,
+  "links": 8,
+  "infobox": "infobox military conflict",
+  "desc": "424 BC military engagement during the Peloponnesian War",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Eretria",
+  "title": "Battle of Eretria",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox military conflict",
+  "desc": "Naval battle between Sparta and Athens (411 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Hysiae (417 BC)",
+  "title": "Battle of Hysiae (417 BC)",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox military conflict",
+  "desc": "Battle between the armies of Argos and Sparta (417 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Idomene",
+  "title": "Battle of Idomene",
+  "seed": true,
+  "links": 0,
+  "infobox": "infobox military conflict",
+  "desc": "Battle during the Peloponnesian War (426 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Lyncestis",
+  "title": "Battle of Lyncestis",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox military conflict",
+  "desc": "423 BCE battle, part of the Peloponnesian Wars",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Mantinea (418 BC)",
+  "title": "Battle of Mantinea (418 BC)",
+  "seed": true,
+  "links": 14,
+  "infobox": "infobox military conflict",
+  "desc": "Spartan victory against Argos, Athens and Mantinea",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Megara",
+  "title": "Battle of Megara",
+  "seed": true,
+  "links": 1,
+  "infobox": "infobox military conflict",
+  "desc": "424 BCE battle between Athens and Megara",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Mytilene (406 BC)",
+  "title": "Battle of Mytilene (406 BC)",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox military conflict",
+  "desc": "Naval battle between Sparta and Athens, part of the Peloponnesian Wars",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Naupactus",
+  "title": "Battle of Naupactus",
+  "seed": true,
+  "links": 3,
+  "infobox": "infobox military conflict",
+  "desc": "Naval battle of the Peloponnesian War",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Notium",
+  "title": "Battle of Notium",
+  "seed": true,
+  "links": 12,
+  "infobox": "infobox military conflict",
+  "desc": "Naval battle during Peloponnesian War (406 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Olpae",
+  "title": "Battle of Olpae",
+  "seed": true,
+  "links": 3,
+  "infobox": "infobox military conflict",
+  "desc": "Battle during the Peloponnesian War (426 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Orneae",
+  "title": "Battle of Orneae",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox military conflict",
+  "desc": "Engagement during the Peloponnesian War (417 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Potidaea",
+  "title": "Battle of Potidaea",
+  "seed": true,
+  "links": 10,
+  "infobox": "infobox military conflict",
+  "desc": "Battle between Athens and Corinth (432 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Pylos",
+  "title": "Battle of Pylos",
+  "seed": true,
+  "links": 12,
+  "infobox": "infobox military conflict",
+  "desc": "Naval battle during the Peloponnesian War (425 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Rhium",
+  "title": "Battle of Rhium",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox military conflict",
+  "desc": "Naval battle between Athenian and Peloponnesian fleets (429 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Spartolos",
+  "title": "Battle of Spartolos",
+  "seed": true,
+  "links": 1,
+  "infobox": "infobox military conflict",
+  "desc": "429 BC battle of the Peloponnesian War",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Sphacteria",
+  "title": "Battle of Sphacteria",
+  "seed": true,
+  "links": 10,
+  "infobox": "infobox military conflict",
+  "desc": "425 BCE battle between Athens and Sparta, part of the Peloponnesian War",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Sybota",
+  "title": "Battle of Sybota",
+  "seed": true,
+  "links": 7,
+  "infobox": "infobox military conflict",
+  "desc": "Battle during the Peloponnesian War (433 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Syme",
+  "title": "Battle of Syme",
+  "seed": true,
+  "links": 1,
+  "infobox": "infobox military conflict",
+  "desc": "Naval battle during the Peloponnesian War (411 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Battle of Tanagra (426 BC)",
+  "title": "Battle of Tanagra (426 BC)",
+  "seed": true,
+  "links": 1,
+  "infobox": "infobox military conflict",
+  "desc": "Battle in the Pelopponesian War",
+  "kind": "event"
+ },
+ {
+  "req": "Battle_of_Hysiae_(417_BC)",
+  "title": "Battle of Hysiae (417 BC)",
+  "seed": true,
+  "links": 0,
+  "infobox": "infobox military conflict",
+  "desc": "Battle between the armies of Argos and Sparta (417 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Brasidas",
+  "title": "Brasidas",
+  "seed": true,
+  "links": 23,
+  "infobox": "infobox military person",
+  "desc": "5th-century BC Spartan general",
+  "kind": "person"
+ },
+ {
+  "req": "Callicratidas",
+  "title": "Callicratidas",
+  "seed": true,
+  "links": 15,
+  "infobox": "infobox military person",
+  "desc": "5th-century BC Spartan admiral",
+  "kind": "person"
+ },
+ {
+  "req": "Chrysis (priestess)",
+  "title": "Chrysis (priestess)",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Argive priestess of Hera",
+  "kind": "person"
+ },
+ {
+  "req": "Clearchus of Sparta",
+  "title": "Clearchus of Sparta",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox military person",
+  "desc": "5th century BCE Spartan general, initial commander of the ten thousand",
+  "kind": "person"
+ },
+ {
+  "req": "Cleisthenes (son of Sibyrtius)",
+  "title": "Cleisthenes (son of Sibyrtius)",
+  "seed": true,
+  "links": 0,
+  "infobox": "infobox person",
+  "desc": "Athenian delegate during the Peloponnesian War",
+  "kind": "person"
+ },
+ {
+  "req": "Cleon",
+  "title": "Cleon",
+  "seed": true,
+  "links": 20,
+  "infobox": "infobox military person",
+  "desc": "Athenian statesman and general (died 422 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Cleonymus of Athens",
+  "title": "Cleonymus of Athens",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "5th-century BC Athenian politician and general",
+  "kind": "person"
+ },
+ {
+  "req": "Cleophon (politician)",
+  "title": "Cleophon (politician)",
+  "seed": true,
+  "links": 4,
+  "infobox": "",
+  "desc": "Athenian politician (died 405 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Clitophon (Athenian)",
+  "title": "Clitophon (Athenian)",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Late 5th-century BC Athenian statesman",
+  "kind": "person"
+ },
+ {
+  "req": "Cnemus",
+  "title": "Cnemus",
+  "seed": true,
+  "links": 4,
+  "infobox": "",
+  "desc": "Spartan navarch from 430 to 429/428 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Coeratadas",
+  "title": "Coeratadas",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Late 5th-century BC Theban general",
+  "kind": "person"
+ },
+ {
+  "req": "Congress of Gela",
+  "title": "Congress of Gela",
+  "seed": true,
+  "links": 3,
+  "infobox": "",
+  "desc": "5th century BC diplomatic meeting",
+  "kind": "event"
+ },
+ {
+  "req": "Conon",
+  "title": "Conon",
+  "seed": true,
+  "links": 16,
+  "infobox": "",
+  "desc": "5th/4th-century BCE Athenian statesman and general",
+  "kind": "person"
+ },
+ {
+  "req": "Demosthenes (general)",
+  "title": "Demosthenes (general)",
+  "seed": true,
+  "links": 18,
+  "infobox": "infobox military person",
+  "desc": "5th-century BC Athenian military general",
+  "kind": "person"
+ },
+ {
+  "req": "Dercylidas",
+  "title": "Dercylidas",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Late 5th early 4th century BCE Spartan commander",
+  "kind": "person"
+ },
+ {
+  "req": "Diodotus (son of Eucrates)",
+  "title": "Diodotus (son of Eucrates)",
+  "seed": true,
+  "links": 3,
+  "infobox": "",
+  "desc": "5th-century BC Athenian politician",
+  "kind": "person"
+ },
+ {
+  "req": "Endius",
+  "title": "Endius",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "5th-century BC Spartan magistrate",
+  "kind": "person"
+ },
+ {
+  "req": "Epicles (admiral)",
+  "title": "Epicles (admiral)",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Spartan admiral during the Peloponnesian War",
+  "kind": "person"
+ },
+ {
+  "req": "Erasinides",
+  "title": "Erasinides",
+  "seed": true,
+  "links": 3,
+  "infobox": "",
+  "desc": "Athenian military commander (died 406 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Eteonicus",
+  "title": "Eteonicus",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Spartan admiral during the Peloponesian and Corinthian Wars",
+  "kind": "person"
+ },
+ {
+  "req": "Eupolia",
+  "title": "Eupolia",
+  "seed": true,
+  "links": 1,
+  "infobox": "infobox person/wikidata",
+  "desc": "Queen of Sparta (c. 5th century BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Eurymedon (strategos)",
+  "title": "Eurymedon (strategos)",
+  "seed": true,
+  "links": 7,
+  "infobox": "",
+  "desc": "Athenian general (died 413 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Gylippus",
+  "title": "Gylippus",
+  "seed": true,
+  "links": 11,
+  "infobox": "",
+  "desc": "5th-century BC Spartan general",
+  "kind": "person"
+ },
+ {
+  "req": "Gylon",
+  "title": "Gylon",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Maternal grandfather of Demosthenes",
+  "kind": "person"
+ },
+ {
+  "req": "Hagnon, son of Nikias",
+  "title": "Hagnon, son of Nikias",
+  "seed": true,
+  "links": 4,
+  "infobox": "",
+  "desc": "5th-century BC Athenian general and statesman",
+  "kind": "person"
+ },
+ {
+  "req": "Hegesandridas",
+  "title": "Hegesandridas",
+  "seed": true,
+  "links": 2,
+  "infobox": "",
+  "desc": "Spartan general during the Peloponnesian War",
+  "kind": "person"
+ },
+ {
+  "req": "Hegetorides",
+  "title": "Hegetorides",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "",
+  "kind": "person"
+ },
+ {
+  "req": "Heraclea in Trachis",
+  "title": "Heraclea in Trachis",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox historic site",
+  "desc": "Ancient city of central Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Heracleides (409 BC)",
+  "title": "Heracleides (409 BC)",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "",
+  "kind": "person"
+ },
+ {
+  "req": "Heracleides (415 BC)",
+  "title": "Heracleides (415 BC)",
+  "seed": true,
+  "links": 3,
+  "infobox": "",
+  "desc": "5th-century BCE Syracusan politician and general",
+  "kind": "person"
+ },
+ {
+  "req": "Hermippus",
+  "title": "Hermippus",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "5th-century BC Athenian poet",
+  "kind": "person"
+ },
+ {
+  "req": "Hermocrates",
+  "title": "Hermocrates",
+  "seed": true,
+  "links": 8,
+  "infobox": "infobox military person",
+  "desc": "5th-century BC Syracusan politician and strategos",
+  "kind": "person"
+ },
+ {
+  "req": "Hiera Orgas",
+  "title": "Hiera Orgas",
+  "seed": true,
+  "links": 2,
+  "infobox": "",
+  "desc": "Site of ancient Greek conflicts",
+  "kind": null
+ },
+ {
+  "req": "Hippocrates of Athens",
+  "title": "Hippocrates of Athens",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox military person",
+  "desc": "Athenian general (c. 459 \u2013 424 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "History of the Peloponnesian War",
+  "title": "History of the Peloponnesian War",
+  "seed": true,
+  "links": 47,
+  "infobox": "infobox book<!-- see wikipedia:wikiproject_novels or wikipedia:wikiproject_books -->",
+  "desc": "5th century BC history book by Thucydides",
+  "kind": "work"
+ },
+ {
+  "req": "Lacedaemonius",
+  "title": "Lacedaemonius",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "5th-century BC Athenian general",
+  "kind": "person"
+ },
+ {
+  "req": "Laches (general)",
+  "title": "Laches (general)",
+  "seed": true,
+  "links": 6,
+  "infobox": "infobox military person",
+  "desc": "Athenian aristocrat and general (c. 475\u2013418 BCE)",
+  "kind": "person"
+ },
+ {
+  "req": "Lamachus",
+  "title": "Lamachus",
+  "seed": true,
+  "links": 6,
+  "infobox": "",
+  "desc": "5th-century BC Athenian general",
+  "kind": "person"
+ },
+ {
+  "req": "Long Walls",
+  "title": "Long Walls",
+  "seed": true,
+  "links": 6,
+  "infobox": "",
+  "desc": "City wall in ancient Athens",
+  "kind": "polity"
+ },
+ {
+  "req": "Lysander",
+  "title": "Lysander",
+  "seed": true,
+  "links": 25,
+  "infobox": "infobox military person",
+  "desc": "Spartan military and political leader (died 395 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Lysicles (general, died 428 BC)",
+  "title": "Lysicles (general, died 428 BC)",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Athenian politician and general (died 428 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Mantitheos",
+  "title": "Mantitheos",
+  "seed": true,
+  "links": 1,
+  "infobox": "infobox military person",
+  "desc": "",
+  "kind": "person"
+ },
+ {
+  "req": "Megarian Decree",
+  "title": "Megarian Decree",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Economic sanctions imposed by the Delian League on Megara",
+  "kind": "event"
+ },
+ {
+  "req": "Melesippus",
+  "title": "Melesippus",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "",
+  "kind": "person"
+ },
+ {
+  "req": "Members of the Delian League",
+  "title": "Members of the Delian League",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "",
+  "kind": null
+ },
+ {
+  "req": "Menon II of Pharsalus",
+  "title": "Menon II of Pharsalus",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "5th-century BC general in the Peloponnesian War",
+  "kind": "person"
+ },
+ {
+  "req": "Mindarus",
+  "title": "Mindarus",
+  "seed": true,
+  "links": 9,
+  "infobox": "",
+  "desc": "5th-century BC Spartan admiral",
+  "kind": "person"
+ },
+ {
+  "req": "Mytilenean Debate",
+  "title": "Mytilenean Debate",
+  "seed": true,
+  "links": 2,
+  "infobox": "",
+  "desc": "Assembly of the Peloponnesian War, 427 BCE",
+  "kind": "event"
+ },
+ {
+  "req": "Mytilenean revolt",
+  "title": "Mytilenean revolt",
+  "seed": true,
+  "links": 5,
+  "infobox": "infobox military conflict",
+  "desc": "Incident during the Peloponnesian War (428\u2013427 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Nicias",
+  "title": "Nicias",
+  "seed": true,
+  "links": 20,
+  "infobox": "infobox military person",
+  "desc": "Athenian politician and general (5th century BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Nicomedes of Sparta",
+  "title": "Nicomedes of Sparta",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox royalty",
+  "desc": "Spartan regent for king Pleistoanax, fl. 460\u2013457 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Nymphodorus of Abdera",
+  "title": "Nymphodorus of Abdera",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "5th-century BC citizen of Abdera, brother-in-law of king Sitalces of Thrace",
+  "kind": "person"
+ },
+ {
+  "req": "Ozolian Locris",
+  "title": "Ozolian Locris",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Region in ancient Greece",
+  "kind": null
+ },
+ {
+  "req": "Pagondas",
+  "title": "Pagondas",
+  "seed": true,
+  "links": 2,
+  "infobox": "",
+  "desc": "5th-century BC Theban general and statesman",
+  "kind": "person"
+ },
+ {
+  "req": "Paralus (ship)",
+  "title": "Paralus (ship)",
+  "seed": true,
+  "links": 3,
+  "infobox": "",
+  "desc": "Ancient Athenian sacred ship",
+  "kind": "person"
+ },
+ {
+  "req": "Pausanias (king of Sparta)",
+  "title": "Pausanias (king of Sparta)",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox royalty",
+  "desc": "King of Sparta in 445\u2013426 and 408\u2013395 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Peace (play)",
+  "title": "Peace (play)",
+  "seed": true,
+  "links": 4,
+  "infobox": "infobox play",
+  "desc": "Comedy by Aristophanes",
+  "kind": "event"
+ },
+ {
+  "req": "Peace of Nicias",
+  "title": "Peace of Nicias",
+  "seed": true,
+  "links": 21,
+  "infobox": "infobox treaty",
+  "desc": "421 BC treaty between Athens and Sparta",
+  "kind": "event"
+ },
+ {
+  "req": "Peisander (oligarch)",
+  "title": "Peisander (oligarch)",
+  "seed": true,
+  "links": 5,
+  "infobox": "",
+  "desc": "5th-century BC Athenian magistrate and politician",
+  "kind": "person"
+ },
+ {
+  "req": "Peisistratus of Orchomenus",
+  "title": "Peisistratus of Orchomenus",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "",
+  "kind": "person"
+ },
+ {
+  "req": "Peithias",
+  "title": "Peithias",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "",
+  "kind": "person"
+ },
+ {
+  "req": "Peloponnesian League",
+  "title": "Peloponnesian League",
+  "seed": true,
+  "links": 26,
+  "infobox": "infobox country",
+  "desc": "Military alliance led by Sparta, c. 550 \u2013 366 BC",
+  "kind": "polity"
+ },
+ {
+  "req": "Peloponnesian War",
+  "title": "Peloponnesian War",
+  "seed": true,
+  "links": 122,
+  "infobox": "infobox military conflict",
+  "desc": "War between Athens and Sparta (431\u2013404 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Perdiccas II of Macedon",
+  "title": "Perdiccas II of Macedon",
+  "seed": true,
+  "links": 10,
+  "infobox": "infobox royalty",
+  "desc": "5th-century BC king of Macedon",
+  "kind": "person"
+ },
+ {
+  "req": "Pericleidas",
+  "title": "Pericleidas",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Ancient Spartan general",
+  "kind": "person"
+ },
+ {
+  "req": "Pericles",
+  "title": "Pericles",
+  "seed": true,
+  "links": 34,
+  "infobox": "infobox military person",
+  "desc": "Athenian statesman and general (c. 495-429)",
+  "kind": "person"
+ },
+ {
+  "req": "Pericles the Younger",
+  "title": "Pericles the Younger",
+  "seed": true,
+  "links": 2,
+  "infobox": "",
+  "desc": "Athenian general (440s\u2013406 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Pericles's Funeral Oration",
+  "title": "Pericles's Funeral Oration",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox event",
+  "desc": "Speech during the Peloponnesian War",
+  "kind": "work"
+ },
+ {
+  "req": "Pharnabazus II",
+  "title": "Pharnabazus II",
+  "seed": true,
+  "links": 5,
+  "infobox": "infobox officeholder",
+  "desc": "Persian satrap of Hellespontine Phrygia from 413 to 374 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Phormio",
+  "title": "Phormio",
+  "seed": true,
+  "links": 9,
+  "infobox": "",
+  "desc": "5th-century BCE Athenian general",
+  "kind": "person"
+ },
+ {
+  "req": "Phrynichus (oligarch)",
+  "title": "Phrynichus (oligarch)",
+  "seed": true,
+  "links": 5,
+  "infobox": "",
+  "desc": "Athenian politician and general (died 411 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Plague of Athens",
+  "title": "Plague of Athens",
+  "seed": true,
+  "links": 7,
+  "infobox": "infobox disease outbreak",
+  "desc": "430 BC epidemic in Greece",
+  "kind": "event"
+ },
+ {
+  "req": "Pleistoanax",
+  "title": "Pleistoanax",
+  "seed": true,
+  "links": 6,
+  "infobox": "infobox royalty",
+  "desc": "5th century BC Agiad King of Sparta",
+  "kind": "person"
+ },
+ {
+  "req": "Protomachus (Athenian general)",
+  "title": "Protomachus (Athenian general)",
+  "seed": true,
+  "links": 2,
+  "infobox": "",
+  "desc": "Late 5th-century BC Athenian admiral",
+  "kind": "person"
+ },
+ {
+  "req": "Salaminia",
+  "title": "Salaminia",
+  "seed": true,
+  "links": 2,
+  "infobox": "",
+  "desc": "Athenian navy vessel",
+  "kind": "person"
+ },
+ {
+  "req": "Salynthius",
+  "title": "Salynthius",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "",
+  "kind": "person"
+ },
+ {
+  "req": "Scironides",
+  "title": "Scironides",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Ancient Ahtenian admiral",
+  "kind": "person"
+ },
+ {
+  "req": "Seskli",
+  "title": "Seskli",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Greek island in the Aegean Sea",
+  "kind": null
+ },
+ {
+  "req": "Sicilian Expedition",
+  "title": "Sicilian Expedition",
+  "seed": true,
+  "links": 26,
+  "infobox": "infobox military conflict",
+  "desc": "Athenian military expedition to Sicily during the Peloponnesian War (415\u2013413 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Siege of Melos",
+  "title": "Siege of Melos",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "416 BC event of the Peloponnesian War",
+  "kind": "event"
+ },
+ {
+  "req": "Siege of Plataea",
+  "title": "Siege of Plataea",
+  "seed": true,
+  "links": 2,
+  "infobox": "infobox military conflict",
+  "desc": "Siege during Peloponnesian War (429\u2013427 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Siege of Syracuse (415\u2013413 BC)",
+  "title": "Sicilian Expedition",
+  "seed": true,
+  "links": 1,
+  "infobox": "infobox military conflict",
+  "desc": "Athenian military expedition to Sicily during the Peloponnesian War (415\u2013413 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Sirras",
+  "title": "Sirras",
+  "seed": true,
+  "links": 1,
+  "infobox": "infobox royalty",
+  "desc": "Late-5th/early 4th-century Macedonian prince",
+  "kind": "person"
+ },
+ {
+  "req": "Sthenelaidas",
+  "title": "Sthenelaidas",
+  "seed": true,
+  "links": 3,
+  "infobox": "",
+  "desc": "Spartan ephor in 432 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Strombichides",
+  "title": "Strombichides",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Late 5th-century BC Athenian admiral and politician",
+  "kind": "person"
+ },
+ {
+  "req": "Teutiaplus",
+  "title": "Teutiaplus",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "",
+  "kind": "person"
+ },
+ {
+  "req": "Theramenes",
+  "title": "Theramenes",
+  "seed": true,
+  "links": 19,
+  "infobox": "infobox military person",
+  "desc": "Athenian statesman (died 404 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Thorax of Lacedaemonia",
+  "title": "Thorax of Lacedaemonia",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "",
+  "kind": "person"
+ },
+ {
+  "req": "Thrasybulus",
+  "title": "Thrasybulus",
+  "seed": true,
+  "links": 17,
+  "infobox": "infobox military person",
+  "desc": "Athenian general and politician (c. 440 \u2013 388 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Thrasyllus",
+  "title": "Thrasyllus",
+  "seed": true,
+  "links": 9,
+  "infobox": "",
+  "desc": "Athenian general and statesman (died 406 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Thucydides",
+  "title": "Thucydides",
+  "seed": true,
+  "links": 97,
+  "infobox": "infobox person",
+  "desc": "5th-century BC Athenian historian and general",
+  "kind": "person"
+ },
+ {
+  "req": "Thucydides Trap",
+  "title": "Thucydides Trap",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Theorised tendency towards war between emerging and existing powers",
+  "kind": null
+ },
+ {
+  "req": "Thymochares",
+  "title": "Thymochares",
+  "seed": true,
+  "links": 2,
+  "infobox": "",
+  "desc": "Late 5th-century BC Athenian general",
+  "kind": "person"
+ },
+ {
+  "req": "Tides of War",
+  "title": "Tides of War",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Book by Steven Pressfield",
+  "kind": "work"
+ },
+ {
+  "req": "Xenagus",
+  "title": "Xenagus",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "Spartan military title",
+  "kind": "person"
+ },
+ {
+  "req": "Xenares (Peloponnesian War)",
+  "title": "Xenares (Peloponnesian War)",
+  "seed": true,
+  "links": 0,
+  "infobox": "",
+  "desc": "",
+  "kind": "person"
+ },
+ {
+  "req": "Xenophon (son of Euripides)",
+  "title": "Xenophon (son of Euripides)",
+  "seed": true,
+  "links": 1,
+  "infobox": "",
+  "desc": "Athenian military commander, son of Euripides",
+  "kind": "person"
+ },
+ {
+  "req": "Agora",
+  "title": "Agora",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Public space in ancient Greek cities",
+  "kind": null
+ },
+ {
+  "req": "Aeschylus",
+  "title": "Aeschylus",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox person",
+  "desc": "5th-century BC Athenian Greek tragedian",
+  "kind": "person"
+ },
+ {
+  "req": "Socrates",
+  "title": "Socrates",
+  "seed": false,
+  "links": 15,
+  "infobox": "infobox philosopher",
+  "desc": "Ancient Greek philosopher (c. 470\u2013399 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Hermes",
+  "title": "Hermes",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox deity",
+  "desc": "Ancient Greek deity and herald of the gods",
+  "kind": null
+ },
+ {
+  "req": "Diodorus Siculus",
+  "title": "Diodorus Siculus",
+  "seed": false,
+  "links": 37,
+  "infobox": "infobox writer",
+  "desc": "1st-century BC Greek historian",
+  "kind": "person"
+ },
+ {
+  "req": "Plato",
+  "title": "Plato",
+  "seed": false,
+  "links": 13,
+  "infobox": "infobox philosopher",
+  "desc": "Ancient Greek philosopher (c. 428-347 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Sparta",
+  "title": "Sparta",
+  "seed": false,
+  "links": 102,
+  "infobox": "infobox former country",
+  "desc": "City-state in ancient Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Charmides",
+  "title": "Charmides",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "5th-century BC Athenian politician",
+  "kind": "person"
+ },
+ {
+  "req": "Eleusinian Mysteries",
+  "title": "Eleusinian Mysteries",
+  "seed": false,
+  "links": 6,
+  "infobox": "",
+  "desc": "Secret religious rites in ancient Greece",
+  "kind": null
+ },
+ {
+  "req": "Evagoras I",
+  "title": "Evagoras I",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox royalty",
+  "desc": "King of Salamis on Cyprus from 411 to 374 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Aristophanes",
+  "title": "Aristophanes",
+  "seed": false,
+  "links": 31,
+  "infobox": "infobox person",
+  "desc": "Classical Athenian comic playwright (c. 446 \u2013 c. 386 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Lampsacus",
+  "title": "Lampsacus",
+  "seed": false,
+  "links": 9,
+  "infobox": "infobox historic site",
+  "desc": "Ancient Greek city located on the eastern side of the Hellespont in the northern Troad",
+  "kind": "polity"
+ },
+ {
+  "req": "Hellespont",
+  "title": "Dardanelles",
+  "seed": false,
+  "links": 20,
+  "infobox": "infobox body of water",
+  "desc": "Narrow strait in northwestern Turkey",
+  "kind": null
+ },
+ {
+  "req": "Thurii",
+  "title": "Thurii",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox historic site",
+  "desc": "City of Magna Graecia, situated on the Tarentine gulf",
+  "kind": "polity"
+ },
+ {
+  "req": "Richard Crawley",
+  "title": "Richard Crawley",
+  "seed": false,
+  "links": 21,
+  "infobox": "infobox person",
+  "desc": "Welsh writer and academic (1840\u20131893)",
+  "kind": "person"
+ },
+ {
+  "req": "Victor Davis Hanson",
+  "title": "Victor Davis Hanson",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox writer",
+  "desc": "American Professor (born 1953)",
+  "kind": "person"
+ },
+ {
+  "req": "Athens",
+  "title": "Athens",
+  "seed": false,
+  "links": 70,
+  "infobox": "infobox settlement",
+  "desc": "Capital and largest city of Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Leukas",
+  "title": "Lefkada",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greek dimos",
+  "desc": "Greek island in the Ionian Sea",
+  "kind": null
+ },
+ {
+  "req": "Greece",
+  "title": "Greece",
+  "seed": false,
+  "links": 11,
+  "infobox": "infobox country",
+  "desc": "Country in Southeastern Europe",
+  "kind": "polity"
+ },
+ {
+  "req": "Messenia",
+  "title": "Messenia",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox greece place",
+  "desc": "Regional unit in Greece",
+  "kind": null
+ },
+ {
+  "req": "Donald Kagan",
+  "title": "Donald Kagan",
+  "seed": false,
+  "links": 39,
+  "infobox": "infobox academic",
+  "desc": "American historian and classicist (1932\u20132021)",
+  "kind": "person"
+ },
+ {
+  "req": "Aetolia",
+  "title": "Aetolia",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox settlement",
+  "desc": "Region in Ancient Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Siegecraft in Ancient Greece",
+  "title": "Siegecraft in Ancient Greece",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "",
+  "kind": null
+ },
+ {
+  "req": "Killed in action",
+  "title": "Killed in action",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Classification of military personnel casualties",
+  "kind": null
+ },
+ {
+  "req": "Corinthian Gulf",
+  "title": "Gulf of Corinth",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox body of water",
+  "desc": "Inlet between mainland Greece and the Peloponnese",
+  "kind": null
+ },
+ {
+  "req": "Archidamian War",
+  "title": "Peloponnesian War",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox military conflict",
+  "desc": "War between Athens and Sparta (431\u2013404 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Locris",
+  "title": "Locris",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox settlement",
+  "desc": "Region of Ancient Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Naupactus",
+  "title": "Nafpaktos",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox greek dimos",
+  "desc": "Town in Western Greece",
+  "kind": null
+ },
+ {
+  "req": "Peltast",
+  "title": "Peltast",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "Type of Thracian light infantry",
+  "kind": null
+ },
+ {
+  "req": "Zacynthus",
+  "title": "Zakynthos",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox greece place",
+  "desc": "Greek island in the Ionian Sea",
+  "kind": null
+ },
+ {
+  "req": "Boeotia",
+  "title": "Boeotia",
+  "seed": false,
+  "links": 22,
+  "infobox": "infobox greece place",
+  "desc": "Region of Greece",
+  "kind": null
+ },
+ {
+  "req": "Melos",
+  "title": "Milos",
+  "seed": false,
+  "links": 10,
+  "infobox": "infobox greek dimos",
+  "desc": "Island in Greece",
+  "kind": null
+ },
+ {
+  "req": "Classical Athens",
+  "title": "Classical Athens",
+  "seed": false,
+  "links": 61,
+  "infobox": "infobox country",
+  "desc": "City-state in ancient Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Hoplite",
+  "title": "Hoplite",
+  "seed": false,
+  "links": 26,
+  "infobox": "",
+  "desc": "Ancient Greek soldier in a phalanx",
+  "kind": "person"
+ },
+ {
+  "req": "Corcyra",
+  "title": "Corfu",
+  "seed": false,
+  "links": 13,
+  "infobox": "infobox islands",
+  "desc": "Greek island in the Ionian Sea",
+  "kind": null
+ },
+ {
+  "req": "Acarnania",
+  "title": "Acarnania",
+  "seed": false,
+  "links": 15,
+  "infobox": "infobox settlement",
+  "desc": "Region in Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Phlius",
+  "title": "Phlius",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Ancient city in Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Parallel Lives",
+  "title": "Parallel Lives",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox book",
+  "desc": "Biographies of famous Greeks and Romans by Plutarch",
+  "kind": "work"
+ },
+ {
+  "req": "Delian League",
+  "title": "Delian League",
+  "seed": false,
+  "links": 20,
+  "infobox": "infobox country",
+  "desc": "Association of ancient Greek city-states under Athenian hegemony",
+  "kind": "polity"
+ },
+ {
+  "req": "Oligarchy",
+  "title": "Oligarchy",
+  "seed": false,
+  "links": 23,
+  "infobox": "",
+  "desc": "Form of government with small ruling class",
+  "kind": null
+ },
+ {
+  "req": "Pythia",
+  "title": "Pythia",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "Priestess of the Temple of Apollo at Delphi, Greece",
+  "kind": "person"
+ },
+ {
+  "req": "Ancient Corinth",
+  "title": "Ancient Corinth",
+  "seed": false,
+  "links": 33,
+  "infobox": "infobox country",
+  "desc": "Ancient city-state in mainland Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Thirty Years' Peace",
+  "title": "Thirty Years' Peace",
+  "seed": false,
+  "links": 10,
+  "infobox": "",
+  "desc": "446/445 BC treaty between Athens and Sparta",
+  "kind": null
+ },
+ {
+  "req": "Troezen",
+  "title": "Troezen",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox greek dimos",
+  "desc": "Town in the Peloponnese, Greece",
+  "kind": null
+ },
+ {
+  "req": "Barbarian",
+  "title": "Barbarian",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Term originally for foreigners, later for people deemed uncivilized",
+  "kind": null
+ },
+ {
+  "req": "Polis",
+  "title": "Polis",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox settlement",
+  "desc": "Ancient Greek social and political organisation",
+  "kind": "polity"
+ },
+ {
+  "req": "Ephesus",
+  "title": "Ephesus",
+  "seed": false,
+  "links": 11,
+  "infobox": "infobox historic site",
+  "desc": "Ancient Greek city in Anatolia",
+  "kind": "polity"
+ },
+ {
+  "req": "First Peloponnesian War",
+  "title": "First Peloponnesian War",
+  "seed": false,
+  "links": 12,
+  "infobox": "infobox military conflict",
+  "desc": "Ancient Greek war (460\u2013445 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Trireme",
+  "title": "Trireme",
+  "seed": false,
+  "links": 30,
+  "infobox": "",
+  "desc": "Ancient vessel with three banks of oars",
+  "kind": null
+ },
+ {
+  "req": "Ambracia",
+  "title": "Ambracia",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox historic site",
+  "desc": "Ancient city in Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Greco-Persian Wars",
+  "title": "Greco-Persian Wars",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox military conflict",
+  "desc": "Series of conflicts in the 5th century BC",
+  "kind": "event"
+ },
+ {
+  "req": "Democracy",
+  "title": "Democracy",
+  "seed": false,
+  "links": 7,
+  "infobox": "",
+  "desc": "Government system where political power lies with the people",
+  "kind": null
+ },
+ {
+  "req": "Epidaurus",
+  "title": "Epidaurus",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox greek dimos",
+  "desc": "UNESCO World Heritage Site",
+  "kind": null
+ },
+ {
+  "req": "Plutarch",
+  "title": "Plutarch",
+  "seed": false,
+  "links": 36,
+  "infobox": "infobox philosopher",
+  "desc": "Greek philosopher and historian",
+  "kind": "person"
+ },
+ {
+  "req": "Lefkada",
+  "title": "Lefkada",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greek dimos",
+  "desc": "Greek island in the Ionian Sea",
+  "kind": null
+ },
+ {
+  "req": "Corfu",
+  "title": "Corfu",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox islands",
+  "desc": "Greek island in the Ionian Sea",
+  "kind": null
+ },
+ {
+  "req": "Potidaea",
+  "title": "Potidaea",
+  "seed": false,
+  "links": 15,
+  "infobox": "",
+  "desc": "Colony founded by the Corinthians around 600 BC",
+  "kind": null
+ },
+ {
+  "req": "Megara",
+  "title": "Megara",
+  "seed": false,
+  "links": 21,
+  "infobox": "infobox greek dimos",
+  "desc": "Historic town in Greece",
+  "kind": null
+ },
+ {
+  "req": "Thebes, Greece",
+  "title": "Thebes, Greece",
+  "seed": false,
+  "links": 19,
+  "infobox": "infobox greek dimos",
+  "desc": "City in Boeotia, Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Illyrians",
+  "title": "Illyrians",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Ancient Western Balkanic tribes",
+  "kind": null
+ },
+ {
+  "req": "University of California Press",
+  "title": "University of California Press",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox publisher",
+  "desc": "American publishing house",
+  "kind": null
+ },
+ {
+  "req": "Pausanias (geographer)",
+  "title": "Pausanias (geographer)",
+  "seed": false,
+  "links": 11,
+  "infobox": "infobox person",
+  "desc": "2nd-century AD Greek geographer",
+  "kind": "person"
+ },
+ {
+  "req": "Delphi",
+  "title": "Delphi",
+  "seed": false,
+  "links": 13,
+  "infobox": "infobox historic site",
+  "desc": "Sacred site and oracle of Ancient Greece",
+  "kind": null
+ },
+ {
+  "req": "Dictionary of Greek and Roman Biography and Mythology",
+  "title": "Dictionary of Greek and Roman Biography and Mythology",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox book",
+  "desc": "Encyclopedia and biographical dictionary ed. by William Smith (1849)",
+  "kind": "work"
+ },
+ {
+  "req": "Ancient Greek",
+  "title": "Ancient Greek",
+  "seed": false,
+  "links": 11,
+  "infobox": "infobox language",
+  "desc": "Ancient forms of the Greek language",
+  "kind": null
+ },
+ {
+  "req": "Little, Brown and Company",
+  "title": "Little, Brown and Company",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox publisher",
+  "desc": "American book publisher founded in 1837",
+  "kind": "work"
+ },
+ {
+  "req": "Connop Thirlwall",
+  "title": "Connop Thirlwall",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "British bishop and historian (1797\u20131875)",
+  "kind": "person"
+ },
+ {
+  "req": "Attica",
+  "title": "Attica",
+  "seed": false,
+  "links": 25,
+  "infobox": "infobox settlement",
+  "desc": "Historical region of Greece, including the city of Athens",
+  "kind": "polity"
+ },
+ {
+  "req": "Argolis",
+  "title": "Argolis",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox greece place",
+  "desc": "Regional unit in Greece",
+  "kind": null
+ },
+ {
+  "req": "Oxford University Press",
+  "title": "Oxford University Press",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox publisher",
+  "desc": "Publishing arm of the University of Oxford",
+  "kind": null
+ },
+ {
+  "req": "Hellenica (Xenophon)",
+  "title": "Hellenica",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox book",
+  "desc": "Work by Xenophon",
+  "kind": "work"
+ },
+ {
+  "req": "The Four Hundred (oligarchy)",
+  "title": "Athenian coup of 411 BC",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox civil conflict",
+  "desc": "'The Four Hundred' oligarchy replaces the democratic government",
+  "kind": "event"
+ },
+ {
+  "req": "Lacedaemon",
+  "title": "Sparta",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox former country",
+  "desc": "City-state in ancient Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Tegea",
+  "title": "Tegea",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox greek dimos",
+  "desc": "Settlement in ancient Greek Arcadia",
+  "kind": null
+ },
+ {
+  "req": "Peloponnese",
+  "title": "Peloponnese",
+  "seed": false,
+  "links": 22,
+  "infobox": "infobox settlement",
+  "desc": "Traditional peninsular region in Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Agesilaus II",
+  "title": "Agesilaus II",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox royalty",
+  "desc": "4th-century BC Spartan king, Eurypontid dynasty",
+  "kind": "person"
+ },
+ {
+  "req": "List of kings of Sparta",
+  "title": "List of kings of Sparta",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "",
+  "kind": null
+ },
+ {
+  "req": "Xenophon",
+  "title": "Xenophon",
+  "seed": false,
+  "links": 41,
+  "infobox": "infobox person",
+  "desc": "Greek philosopher, historian, and soldier (c.430\u2013355/354 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Decelea",
+  "title": "Decelea",
+  "seed": false,
+  "links": 11,
+  "infobox": "",
+  "desc": "Ancient Athenian administrative unit",
+  "kind": "person"
+ },
+ {
+  "req": "King of Sparta",
+  "title": "List of kings of Sparta",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "",
+  "kind": null
+ },
+ {
+  "req": "Argos, Peloponnese",
+  "title": "Argos, Peloponnese",
+  "seed": false,
+  "links": 19,
+  "infobox": "infobox greece place",
+  "desc": "City in Argolis, Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Arcadia (ancient region)",
+  "title": "Arcadia (region)",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox settlement",
+  "desc": "Historical region in Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Agiad dynasty",
+  "title": "Agiad dynasty",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox family",
+  "desc": "Royal family of ancient Sparta",
+  "kind": null
+ },
+ {
+  "req": "Elean War",
+  "title": "Elean War",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox military conflict",
+  "desc": "War between Sparta and Elis",
+  "kind": "event"
+ },
+ {
+  "req": "Mantineia",
+  "title": "Mantinea",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox greek dimos",
+  "desc": "Municipal unit in Greece; ancient city in Arcadia, Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Orchomenus (Arcadia)",
+  "title": "Orchomenus (Arcadia)",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox historic site",
+  "desc": "Ancient Greek city in Arcadia",
+  "kind": "polity"
+ },
+ {
+  "req": "Ancient drachma",
+  "title": "Ancient drachma",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Ancient Greek currency",
+  "kind": null
+ },
+ {
+  "req": "Sicilian expedition",
+  "title": "Sicilian Expedition",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox military conflict",
+  "desc": "Athenian military expedition to Sicily during the Peloponnesian War (415\u2013413 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Agiad",
+  "title": "Agiad dynasty",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox family",
+  "desc": "Royal family of ancient Sparta",
+  "kind": null
+ },
+ {
+  "req": "Harmost",
+  "title": "Harmost",
+  "seed": false,
+  "links": 7,
+  "infobox": "",
+  "desc": "Spartan term for a military governor",
+  "kind": "person"
+ },
+ {
+  "req": "Chios",
+  "title": "Chios",
+  "seed": false,
+  "links": 13,
+  "infobox": "infobox greek dimos",
+  "desc": "Island in Greece",
+  "kind": null
+ },
+ {
+  "req": "Lesbos Island",
+  "title": "Lesbos",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greece place",
+  "desc": "Greek island in the North Aegean",
+  "kind": null
+ },
+ {
+  "req": "Isthmus of Corinth",
+  "title": "Isthmus of Corinth",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox landform",
+  "desc": "Land bridge located between the Peloponnese peninsula and mainland Greece",
+  "kind": null
+ },
+ {
+  "req": "Ecclesia (ancient Athens)",
+  "title": "Ecclesia (ancient Greece)",
+  "seed": false,
+  "links": 7,
+  "infobox": "",
+  "desc": "Assembly of the democracy of ancient Greek city-states",
+  "kind": "polity"
+ },
+ {
+  "req": "Aristotle",
+  "title": "Aristotle",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox philosopher",
+  "desc": "Ancient Greek philosopher and polymath (384\u2013322 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Selinus",
+  "title": "Selinunte",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox historic site",
+  "desc": "Ancient human settlement",
+  "kind": null
+ },
+ {
+  "req": "Trierarch",
+  "title": "Trierarch",
+  "seed": false,
+  "links": 7,
+  "infobox": "",
+  "desc": "Ancient Greek trireme commander",
+  "kind": "person"
+ },
+ {
+  "req": "Assassin's Creed Odyssey",
+  "title": "Assassin's Creed Odyssey",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox video game",
+  "desc": "2018 video game",
+  "kind": null
+ },
+ {
+  "req": "Byzantium",
+  "title": "Byzantium",
+  "seed": false,
+  "links": 10,
+  "infobox": "infobox historic site",
+  "desc": "Ancient Greek city, forerunner of Constantinople",
+  "kind": "polity"
+ },
+ {
+  "req": "Strategos",
+  "title": "Strategos",
+  "seed": false,
+  "links": 24,
+  "infobox": "",
+  "desc": "Greek military leader",
+  "kind": null
+ },
+ {
+  "req": "Athena",
+  "title": "Athena",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox deity",
+  "desc": "Ancient Greek goddess",
+  "kind": null
+ },
+ {
+  "req": "The Wasps",
+  "title": "The Wasps",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox play",
+  "desc": "Comedy by Aristophanes",
+  "kind": "work"
+ },
+ {
+  "req": "Henry Graham Dakyns",
+  "title": "Henry Graham Dakyns",
+  "seed": false,
+  "links": 10,
+  "infobox": "",
+  "desc": "British translator (1838\u20131911)",
+  "kind": null
+ },
+ {
+  "req": "Catania",
+  "title": "Catania",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox italian comune",
+  "desc": "City in Sicily, Italy",
+  "kind": "polity"
+ },
+ {
+  "req": "Isocrates",
+  "title": "Isocrates",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox person",
+  "desc": "Greek rhetorician and writer (436\u2013338 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Athenian military",
+  "title": "Athenian military",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Military forces of Athens in Ancient Greece",
+  "kind": null
+ },
+ {
+  "req": "Cleinias",
+  "title": "Cleinias",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "5th-century BC Athenian politician and father of Alcibiades",
+  "kind": "person"
+ },
+ {
+  "req": "Trial in absentia",
+  "title": "Trial in absentia",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Criminal proceeding involving an absent defendant",
+  "kind": "event"
+ },
+ {
+  "req": "Ancient Greece",
+  "title": "Ancient Greece",
+  "seed": false,
+  "links": 17,
+  "infobox": "infobox archaeological culture",
+  "desc": "Greek civilization from 1200 BC to 600 AD",
+  "kind": null
+ },
+ {
+  "req": "John Dryden",
+  "title": "John Dryden",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox officeholder",
+  "desc": "English poet and playwright (1630\u20131700)",
+  "kind": "person"
+ },
+ {
+  "req": "Sestus",
+  "title": "Sestos",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox historic site",
+  "desc": "Ancient city in Thrace",
+  "kind": "polity"
+ },
+ {
+  "req": "Aegospotami",
+  "title": "Aegospotami",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "River in Turkey",
+  "kind": null
+ },
+ {
+  "req": "Athenians",
+  "title": "Classical Athens",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox country",
+  "desc": "City-state in ancient Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Achaemenid Empire",
+  "title": "Achaemenid Empire",
+  "seed": false,
+  "links": 20,
+  "infobox": "infobox country",
+  "desc": "Ancient Iranian empire, 550\u2013330 BC",
+  "kind": "polity"
+ },
+ {
+  "req": "Syracuse, Sicily",
+  "title": "Syracuse, Sicily",
+  "seed": false,
+  "links": 19,
+  "infobox": "infobox italian comune",
+  "desc": "City in Sicily, Italy",
+  "kind": "polity"
+ },
+ {
+  "req": "Notium",
+  "title": "Notion (ancient city)",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox historic site",
+  "desc": "Ancient Greek city",
+  "kind": "polity"
+ },
+ {
+  "req": "Achilles",
+  "title": "Achilles",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox deity",
+  "desc": "Greek mythological hero",
+  "kind": null
+ },
+ {
+  "req": "Alcmaeonidae",
+  "title": "Alcmaeonidae",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Powerful family in Ancient Athens",
+  "kind": null
+ },
+ {
+  "req": "Melian dialogue",
+  "title": "Siege of Melos",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "416 BC event of the Peloponnesian War",
+  "kind": "event"
+ },
+ {
+  "req": "Ionia",
+  "title": "Ionia",
+  "seed": false,
+  "links": 15,
+  "infobox": "infobox",
+  "desc": "Region in Turkey",
+  "kind": null
+ },
+ {
+  "req": "Cyzicus",
+  "title": "Cyzicus",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox historic site",
+  "desc": "Ancient town in Erdek, Bal\u0131kesir Province, Turkey",
+  "kind": null
+ },
+ {
+  "req": "Messina",
+  "title": "Messina",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox italian comune",
+  "desc": "Comune in Sicily, Italy",
+  "kind": null
+ },
+ {
+  "req": "Samos",
+  "title": "Samos",
+  "seed": false,
+  "links": 22,
+  "infobox": "infobox greece place",
+  "desc": "Greek island in the eastern Aegean Sea",
+  "kind": null
+ },
+ {
+  "req": "Phocaea",
+  "title": "Phocaea",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox historic site",
+  "desc": "Ancient Greek city in \u0130zmir Province, Turkey",
+  "kind": "polity"
+ },
+ {
+  "req": "Asia Minor",
+  "title": "Anatolia",
+  "seed": false,
+  "links": 10,
+  "infobox": "infobox peninsulas",
+  "desc": "Peninsula of Turkey in Western Asia",
+  "kind": null
+ },
+ {
+  "req": "Demosthenes",
+  "title": "Demosthenes",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox person",
+  "desc": "Classical Athenian statesman and orator (384\u2013322 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Mysia",
+  "title": "Mysia",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox",
+  "desc": "Historical region in the northwest of ancient Asia Minor",
+  "kind": null
+ },
+ {
+  "req": "Eleusis",
+  "title": "Elefsina",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox greek dimos",
+  "desc": "City in West Attica, Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Andros, Greece",
+  "title": "Andros, Greece",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox greece place",
+  "desc": "Northernmost island of the Greek Cyclades archipelago",
+  "kind": null
+ },
+ {
+  "req": "Sestos",
+  "title": "Sestos",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox historic site",
+  "desc": "Ancient city in Thrace",
+  "kind": "polity"
+ },
+ {
+  "req": "Carthage",
+  "title": "Carthage",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox historic site",
+  "desc": "Ancient city in Tunisia",
+  "kind": "polity"
+ },
+ {
+  "req": "Mantinea",
+  "title": "Mantinea",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox greek dimos",
+  "desc": "Municipal unit in Greece; ancient city in Arcadia, Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Artaxerxes II of Persia",
+  "title": "Artaxerxes II",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox royalty",
+  "desc": "King of the Achaemenid Empire from 405/4 to 359/8 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Ostracism",
+  "title": "Ostracism",
+  "seed": false,
+  "links": 6,
+  "infobox": "",
+  "desc": "Democratic procedure for expelling citizens",
+  "kind": null
+ },
+ {
+  "req": "Abydos, Hellespont",
+  "title": "Abydos (Hellespont)",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox historic site",
+  "desc": "Ancient city in Turkey",
+  "kind": "polity"
+ },
+ {
+  "req": "Darius II",
+  "title": "Darius II",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox royalty",
+  "desc": "King of Kings of the Achaemenid Empire from 423 to 405/4 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Cimon",
+  "title": "Cimon",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox military person",
+  "desc": "5th-century BC Athenian statesman and general",
+  "kind": "person"
+ },
+ {
+  "req": "Diodorus",
+  "title": "Diodorus Siculus",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox writer",
+  "desc": "1st-century BC Greek historian",
+  "kind": "person"
+ },
+ {
+  "req": "Sicily",
+  "title": "Sicily",
+  "seed": false,
+  "links": 19,
+  "infobox": "infobox settlement\n<!-- see template:infobox settlement for additional fields and descriptions -->",
+  "desc": "Island in the Mediterranean, region of Italy",
+  "kind": "polity"
+ },
+ {
+  "req": "Cyrus the Younger",
+  "title": "Cyrus the Younger",
+  "seed": false,
+  "links": 10,
+  "infobox": "infobox royalty",
+  "desc": "Achaemenid prince, satrap of Lydia from 408 to 401 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Tissaphernes",
+  "title": "Tissaphernes",
+  "seed": false,
+  "links": 18,
+  "infobox": "infobox officeholder",
+  "desc": "Persian Satrap of Lydia and Ionia (445\u2013395 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Mary Renault",
+  "title": "Mary Renault",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox writer",
+  "desc": "British novelist (1905\u20131983)",
+  "kind": "person"
+ },
+ {
+  "req": "Talent (weight)",
+  "title": "Talent (measurement)",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "Ancient unit of mass",
+  "kind": null
+ },
+ {
+  "req": "Rhetoric",
+  "title": "Rhetoric",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "Art of persuasion",
+  "kind": null
+ },
+ {
+  "req": "Cornelius Nepos",
+  "title": "Cornelius Nepos",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "Roman historian and biographer (c.110 BC\u2013c.25 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Pharnabazus (5th century BC)",
+  "title": "Pharnabazus II",
+  "seed": false,
+  "links": 12,
+  "infobox": "infobox officeholder",
+  "desc": "Persian satrap of Hellespontine Phrygia from 413 to 374 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Herma",
+  "title": "Herm (sculpture)",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "Type of classical sculpture",
+  "kind": null
+ },
+ {
+  "req": "Susa",
+  "title": "Susa",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox historic site",
+  "desc": "Ancient city in Iran",
+  "kind": "polity"
+ },
+ {
+  "req": "Siege",
+  "title": "Siege",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Military land blockade of a location",
+  "kind": "event"
+ },
+ {
+  "req": "Eupolis",
+  "title": "Eupolis",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox person",
+  "desc": "5th-century BC Athenian playwright of Old Comedy",
+  "kind": "work"
+ },
+ {
+  "req": "Hellespontine Phrygia",
+  "title": "Hellespontine Phrygia",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox former subdivision",
+  "desc": "Satrapy of the Achaemenid Empire (525-321 BC)",
+  "kind": "polity"
+ },
+ {
+  "req": "Ancient Elis",
+  "title": "Ancient Elis",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox settlement",
+  "desc": "City state in Ancient Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Critias",
+  "title": "Critias",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox person",
+  "desc": "Athenian politician (c. 460 \u2013 403 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Benjamin Jowett",
+  "title": "Benjamin Jowett",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox academic",
+  "desc": "English writer and classical scholar (1817\u20131893)",
+  "kind": "person"
+ },
+ {
+  "req": "Piraeus",
+  "title": "Piraeus",
+  "seed": false,
+  "links": 17,
+  "infobox": "infobox greek dimos",
+  "desc": "Harbour of Athens and a port city in Attica, Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Athenian democracy",
+  "title": "Athenian democracy",
+  "seed": false,
+  "links": 17,
+  "infobox": "",
+  "desc": "Government regime in ancient Athens",
+  "kind": null
+ },
+ {
+  "req": "Hellenica Oxyrhynchia",
+  "title": "Hellenica Oxyrhynchia",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Ancient Greek historical account",
+  "kind": null
+ },
+ {
+  "req": "Spartan army",
+  "title": "Spartan army",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox military unit",
+  "desc": "Army of the ancient Greek city-state of Sparta",
+  "kind": "polity"
+ },
+ {
+  "req": "Symposium (Plato)",
+  "title": "Symposium (Plato)",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox medieval text",
+  "desc": "Socratic dialogue by Plato",
+  "kind": "work"
+ },
+ {
+  "req": "Lysias",
+  "title": "Lysias",
+  "seed": false,
+  "links": 11,
+  "infobox": "infobox writer",
+  "desc": "Athenian speechwriter (c. 445\u2013c. 380 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Persian Wars",
+  "title": "Greco-Persian Wars",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox military conflict",
+  "desc": "Series of conflicts in the 5th century BC",
+  "kind": "event"
+ },
+ {
+  "req": "Caria",
+  "title": "Caria",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox",
+  "desc": "Region of ancient Asia-Minor",
+  "kind": null
+ },
+ {
+  "req": "Chalcedon",
+  "title": "Chalcedon",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox settlement",
+  "desc": "Town in Bithynia",
+  "kind": "polity"
+ },
+ {
+  "req": "Frederic George Kenyon",
+  "title": "Frederic G. Kenyon",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox scholar",
+  "desc": "British palaeographer and classical scholar (1863\u20131952)",
+  "kind": null
+ },
+ {
+  "req": "Satrap",
+  "title": "Satrap",
+  "seed": false,
+  "links": 12,
+  "infobox": "",
+  "desc": "Ruler of a province in ancient Persia",
+  "kind": "person"
+ },
+ {
+  "req": "Constitution of the Athenians (Aristotle)",
+  "title": "Constitution of the Athenians (Aristotle)",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Work by Aristotle",
+  "kind": null
+ },
+ {
+  "req": "Apology (Plato)",
+  "title": "Apology (Plato)",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Socratic dialogue written by Plato",
+  "kind": "work"
+ },
+ {
+  "req": "Themistocles",
+  "title": "Themistocles",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox officeholder",
+  "desc": "Athenian politician and general (c. 524\u2013459 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Segesta",
+  "title": "Segesta",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox historic site",
+  "desc": "Ancient Sicilian city",
+  "kind": "polity"
+ },
+ {
+  "req": "Ephor",
+  "title": "Ephor",
+  "seed": false,
+  "links": 11,
+  "infobox": "",
+  "desc": "Magistrates in ancient Sparta",
+  "kind": null
+ },
+ {
+  "req": "Thrace",
+  "title": "Thrace",
+  "seed": false,
+  "links": 21,
+  "infobox": "infobox settlement",
+  "desc": "Geographical and historical region in Southeast Europe",
+  "kind": "polity"
+ },
+ {
+  "req": "Spartan navarch",
+  "title": "Navarch (Sparta)",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "Magistrate commanding the fleet in Sparta",
+  "kind": null
+ },
+ {
+  "req": "Erythrae",
+  "title": "Erythrae",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox historic site",
+  "desc": "Ruined city of the Ionian League in present day \u0130zmir, Turkey",
+  "kind": "polity"
+ },
+ {
+  "req": "Mytilene",
+  "title": "Mytilene",
+  "seed": false,
+  "links": 19,
+  "infobox": "infobox greek dimos",
+  "desc": "Capital of the Greek island of Lesbos",
+  "kind": null
+ },
+ {
+  "req": "Euboea",
+  "title": "Euboea",
+  "seed": false,
+  "links": 13,
+  "infobox": "infobox islands",
+  "desc": "Second-largest Greek island",
+  "kind": null
+ },
+ {
+  "req": "Lesbos",
+  "title": "Lesbos",
+  "seed": false,
+  "links": 11,
+  "infobox": "infobox greece place",
+  "desc": "Greek island in the North Aegean",
+  "kind": null
+ },
+ {
+  "req": "Hyperbolus",
+  "title": "Hyperbolus",
+  "seed": false,
+  "links": 7,
+  "infobox": "",
+  "desc": "Athenian politician (died 412/411 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Ancient Olympic Games",
+  "title": "Ancient Olympic Games",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Athletic competitions in ancient Greece",
+  "kind": null
+ },
+ {
+  "req": "Phyle",
+  "title": "Phyle",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Ancient Greek term for tribe or clan",
+  "kind": null
+ },
+ {
+  "req": "Perseus Project",
+  "title": "Perseus Digital Library",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox library",
+  "desc": "Digital library of Tufts University",
+  "kind": null
+ },
+ {
+  "req": "Macedonia (ancient kingdom)",
+  "title": "Macedonia (ancient kingdom)",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox former country",
+  "desc": "Ancient Greek kingdom in the southern Balkans",
+  "kind": "polity"
+ },
+ {
+  "req": "Thessaly",
+  "title": "Thessaly",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox settlement",
+  "desc": "Administrative region of Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Cnidus",
+  "title": "Knidos",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox historic site",
+  "desc": "Ancient Greek peninsular city of Caria, Turkey",
+  "kind": "polity"
+ },
+ {
+  "req": "Demagogue",
+  "title": "Demagogue",
+  "seed": false,
+  "links": 7,
+  "infobox": "",
+  "desc": "Politician or orator who panders to fears and emotions of the public",
+  "kind": "person"
+ },
+ {
+  "req": "Suda",
+  "title": "Suda",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "10th century Byzantine encyclopedia",
+  "kind": null
+ },
+ {
+  "req": "Boule (ancient Greece)",
+  "title": "Boule (ancient Greece)",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "Ancient Greek city council",
+  "kind": "polity"
+ },
+ {
+  "req": "City-state",
+  "title": "City-state",
+  "seed": false,
+  "links": 6,
+  "infobox": "",
+  "desc": "Sovereign state consisting primarily of a city and its territory",
+  "kind": "polity"
+ },
+ {
+  "req": "Cyprus",
+  "title": "Cyprus",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox country",
+  "desc": "Island country in the Mediterranean Sea",
+  "kind": "polity"
+ },
+ {
+  "req": "Thirty Tyrants",
+  "title": "Thirty Tyrants",
+  "seed": false,
+  "links": 8,
+  "infobox": "",
+  "desc": "404\u2013403 BCE Athenian pro-Spartan ruling group",
+  "kind": "person"
+ },
+ {
+  "req": "Iliad",
+  "title": "Iliad",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox poem",
+  "desc": "Epic poem attributed to Homer",
+  "kind": null
+ },
+ {
+  "req": "Scholia",
+  "title": "Scholia",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Type of comment in the manuscript of an ancient author",
+  "kind": null
+ },
+ {
+  "req": "Troy",
+  "title": "Troy",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox historic site",
+  "desc": "Ancient city in northwest Asia Minor",
+  "kind": "polity"
+ },
+ {
+  "req": "Euripides",
+  "title": "Euripides",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox person",
+  "desc": "5th-century BC Athenian playwright",
+  "kind": "person"
+ },
+ {
+  "req": "Trojan War",
+  "title": "Trojan War",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Legendary war in Greek mythology",
+  "kind": null
+ },
+ {
+  "req": "Homer",
+  "title": "Homer",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox writer",
+  "desc": "Ancient Greek poet",
+  "kind": "person"
+ },
+ {
+  "req": "Slavery in ancient Greece",
+  "title": "Slavery in ancient Greece",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "",
+  "kind": null
+ },
+ {
+  "req": "Histories (Herodotus)",
+  "title": "Histories (Herodotus)",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox book\n<!-- see wikipedia:wikiproject_novels or wikipedia:wikiproject_books -->",
+  "desc": "Work by Herodotus, c. 440 BC",
+  "kind": "work"
+ },
+ {
+  "req": "Herodotus",
+  "title": "Herodotus",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox person",
+  "desc": "Greek historian and geographer (c. 484\u2013c. 425 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Sitalces",
+  "title": "Sitalces",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "Navigational template showing Odrysian kings",
+  "kind": null
+ },
+ {
+  "req": "Bibliotheca historica",
+  "title": "Bibliotheca Historica",
+  "seed": false,
+  "links": 12,
+  "infobox": "",
+  "desc": "World history written by Diodorus Siculus",
+  "kind": null
+ },
+ {
+  "req": "Hellenica",
+  "title": "Hellenica",
+  "seed": false,
+  "links": 17,
+  "infobox": "infobox book",
+  "desc": "Work by Xenophon",
+  "kind": "work"
+ },
+ {
+  "req": "Athenian",
+  "title": "Athens",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox settlement",
+  "desc": "Capital and largest city of Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Admiral",
+  "title": "Admiral",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Highest rank of naval officer",
+  "kind": null
+ },
+ {
+  "req": "Phyle Campaign",
+  "title": "Phyle Campaign",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Civil war in Ancient Greece",
+  "kind": "event"
+ },
+ {
+  "req": "Acropolis of Athens",
+  "title": "Acropolis of Athens",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox unesco world heritage site",
+  "desc": "Ancient citadel above the city of Athens",
+  "kind": "polity"
+ },
+ {
+  "req": "List of speakers in Plato's dialogues",
+  "title": "List of speakers in Plato's dialogues",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "",
+  "kind": null
+ },
+ {
+  "req": "Aristides",
+  "title": "Aristides",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox military person",
+  "desc": "Athenian general and statesman (530\u2013468 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Thucydides, son of Melesias",
+  "title": "Thucydides, son of Melesias",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Ancient Athenian conservative politician",
+  "kind": "person"
+ },
+ {
+  "req": "Deme",
+  "title": "Deme",
+  "seed": false,
+  "links": 8,
+  "infobox": "",
+  "desc": "Administrative unit in ancient Athens",
+  "kind": null
+ },
+ {
+  "req": "Ecclesia (ancient Greece)",
+  "title": "Ecclesia (ancient Greece)",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Assembly of the democracy of ancient Greek city-states",
+  "kind": "polity"
+ },
+ {
+  "req": "Gerousia",
+  "title": "Gerousia",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Senate of ancient Sparta",
+  "kind": null
+ },
+ {
+  "req": "Helots",
+  "title": "Helots",
+  "seed": false,
+  "links": 9,
+  "infobox": "",
+  "desc": "Subjugated population in ancient Sparta",
+  "kind": null
+ },
+ {
+  "req": "Pylos",
+  "title": "Pylos",
+  "seed": false,
+  "links": 11,
+  "infobox": "infobox greek dimos",
+  "desc": "Town in Messenia, Peloponnese, Greece",
+  "kind": null
+ },
+ {
+  "req": "Artaxerxes II",
+  "title": "Artaxerxes II",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox royalty",
+  "desc": "King of the Achaemenid Empire from 405/4 to 359/8 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Therma",
+  "title": "Therma",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox historic site",
+  "desc": "Ancient city incorporated into Thessaloniki",
+  "kind": "polity"
+ },
+ {
+  "req": "Routledge",
+  "title": "Routledge",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox publisher",
+  "desc": "English multinational academic publisher",
+  "kind": null
+ },
+ {
+  "req": "Magna Graecia",
+  "title": "Magna Graecia",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox settlement",
+  "desc": "Historical region of Italy",
+  "kind": "polity"
+ },
+ {
+  "req": "Chilon of Sparta",
+  "title": "Chilon of Sparta",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "6th century BC Spartan philosopher, ephor and writer",
+  "kind": "person"
+ },
+ {
+  "req": "Plataea",
+  "title": "Plataea",
+  "seed": false,
+  "links": 7,
+  "infobox": "",
+  "desc": "Ancient city in southeastern Boeotia, Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Attica, Greece",
+  "title": "Attica",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox settlement",
+  "desc": "Historical region of Greece, including the city of Athens",
+  "kind": "polity"
+ },
+ {
+  "req": "Ephors",
+  "title": "Ephor",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Magistrates in ancient Sparta",
+  "kind": null
+ },
+ {
+  "req": "Amphipolis",
+  "title": "Amphipolis",
+  "seed": false,
+  "links": 18,
+  "infobox": "infobox historic site",
+  "desc": "Archeological site in Macedonia, Greece",
+  "kind": null
+ },
+ {
+  "req": "Pydna",
+  "title": "Pydna",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greek dimos",
+  "desc": "Municipal unit in Greece",
+  "kind": null
+ },
+ {
+  "req": "Chalcis",
+  "title": "Chalcis",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox greek dimos",
+  "desc": "City on the island of Euboea, Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Dardanelles",
+  "title": "Dardanelles",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox body of water",
+  "desc": "Narrow strait in northwestern Turkey",
+  "kind": null
+ },
+ {
+  "req": "Aphytis",
+  "title": "Aphytis",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Ancient city in Chalcidice, Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Olynthus",
+  "title": "Olynthus",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox historic site",
+  "desc": "Ancient Greek city",
+  "kind": "polity"
+ },
+ {
+  "req": "Eion",
+  "title": "Eion",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Ancient Greek colony",
+  "kind": null
+ },
+ {
+  "req": "Struma (river)",
+  "title": "Struma (river)",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox river",
+  "desc": "River in Bulgaria and Greece",
+  "kind": null
+ },
+ {
+  "req": "Greek language",
+  "title": "Greek language",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox language",
+  "desc": "Indo-European language",
+  "kind": null
+ },
+ {
+  "req": "Proxenos",
+  "title": "Proxeny",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Voluntary diplomatic position in classical Greece",
+  "kind": null
+ },
+ {
+  "req": "The Acharnians",
+  "title": "The Acharnians",
+  "seed": false,
+  "links": 9,
+  "infobox": "infobox play",
+  "desc": "Comedy by Aristophanes",
+  "kind": "work"
+ },
+ {
+  "req": "Pliny the Elder",
+  "title": "Pliny the Elder",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox person",
+  "desc": "Roman military commander and writer (AD23/24\u201379)",
+  "kind": "person"
+ },
+ {
+  "req": "Laconia",
+  "title": "Laconia",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox greece place",
+  "desc": "Historic and administrative region of Greece",
+  "kind": null
+ },
+ {
+  "req": "Nafpaktos",
+  "title": "Nafpaktos",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox greek dimos",
+  "desc": "Town in Western Greece",
+  "kind": null
+ },
+ {
+  "req": "Cornell University Press",
+  "title": "Cornell University Press",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox publisher",
+  "desc": "American university press",
+  "kind": null
+ },
+ {
+  "req": "Rhodes",
+  "title": "Rhodes",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox settlement",
+  "desc": "Island in Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Mithymna",
+  "title": "Mithymna",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greek dimos",
+  "desc": "Municipal unit in Greece",
+  "kind": null
+ },
+ {
+  "req": "Locrians",
+  "title": "Locrians",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Ancient Greek tribe",
+  "kind": null
+ },
+ {
+  "req": "Ancient Athens",
+  "title": "Classical Athens",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox country",
+  "desc": "City-state in ancient Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Strabo",
+  "title": "Strabo",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox person",
+  "desc": "Greek geographer, philosopher and historian (64/63 BC\u2013c.24 AD)",
+  "kind": "person"
+ },
+ {
+  "req": "Cambridge University Press",
+  "title": "Cambridge University Press",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox publisher",
+  "desc": "Publishing arm of the University of Cambridge",
+  "kind": null
+ },
+ {
+  "req": "Attic talent",
+  "title": "Attic talent",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Ancient Greek unit of weight",
+  "kind": null
+ },
+ {
+  "req": "Scione",
+  "title": "Scione",
+  "seed": false,
+  "links": 7,
+  "infobox": "",
+  "desc": "Ancient Greek city in Pallene",
+  "kind": "polity"
+ },
+ {
+  "req": "Constitution of the Athenians (Pseudo-Xenophon)",
+  "title": "Constitution of the Athenians (Pseudo-Xenophon)",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Treatise on classical Athens",
+  "kind": null
+ },
+ {
+  "req": "Politics (Aristotle)",
+  "title": "Politics (Aristotle)",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Work of political philosophy by Aristotle",
+  "kind": null
+ },
+ {
+  "req": "Anatolia",
+  "title": "Anatolia",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox peninsulas",
+  "desc": "Peninsula of Turkey in Western Asia",
+  "kind": null
+ },
+ {
+  "req": "Sophocles",
+  "title": "Sophocles",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox writer",
+  "desc": "5th-century BC Athenian tragic playwright",
+  "kind": "person"
+ },
+ {
+  "req": "Lysistrata",
+  "title": "Lysistrata",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox play",
+  "desc": "Comedy by Aristophanes",
+  "kind": "work"
+ },
+ {
+  "req": "Samos Island",
+  "title": "Samos",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox greece place",
+  "desc": "Greek island in the eastern Aegean Sea",
+  "kind": null
+ },
+ {
+  "req": "Battle of Tanagra (457 BC)",
+  "title": "Battle of Tanagra (457 BC)",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox military conflict",
+  "desc": "Battle between Athens and Sparta (457 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Cythera (island)",
+  "title": "Kythira",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox greek dimos",
+  "desc": "Island in Greece",
+  "kind": null
+ },
+ {
+  "req": "Abydos (Hellespont)",
+  "title": "Abydos (Hellespont)",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox historic site",
+  "desc": "Ancient city in Turkey",
+  "kind": "polity"
+ },
+ {
+  "req": "Aspasia",
+  "title": "Aspasia",
+  "seed": false,
+  "links": 7,
+  "infobox": "",
+  "desc": "5th-century BC partner of Athenian statesman Pericles",
+  "kind": "person"
+ },
+ {
+  "req": "\u00c7anakkale Province",
+  "title": "\u00c7anakkale Province",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox turkey place",
+  "desc": "Province in northwestern Turkey",
+  "kind": null
+ },
+ {
+  "req": "Turkey",
+  "title": "Turkey",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox country",
+  "desc": "Country in Southeastern Europe and West Asia",
+  "kind": "polity"
+ },
+ {
+  "req": "Navarch",
+  "title": "Navarch",
+  "seed": false,
+  "links": 14,
+  "infobox": "",
+  "desc": "Greek word meaning \"leader of the ships\"",
+  "kind": null
+ },
+ {
+  "req": "Spartan hegemony",
+  "title": "Spartan hegemony",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Spartan domination of parts of Greece (404\u2013371 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Achaemenid Dynasty",
+  "title": "Achaemenid Empire",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox country",
+  "desc": "Ancient Iranian empire, 550\u2013330 BC",
+  "kind": "polity"
+ },
+ {
+  "req": "Salamis Island",
+  "title": "Salamis Island",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox greek dimos",
+  "desc": "Island in the Saronic Gulf, Greece",
+  "kind": null
+ },
+ {
+  "req": "Aegina",
+  "title": "Aegina",
+  "seed": false,
+  "links": 9,
+  "infobox": "infobox greek dimos",
+  "desc": "Greek island, south of Athens",
+  "kind": null
+ },
+ {
+  "req": "Black Sea",
+  "title": "Black Sea",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox body of water",
+  "desc": "Eurasian sea northeast of the Mediterranean",
+  "kind": null
+ },
+ {
+  "req": "Hoplites",
+  "title": "Hoplite",
+  "seed": false,
+  "links": 11,
+  "infobox": "",
+  "desc": "Ancient Greek soldier in a phalanx",
+  "kind": "person"
+ },
+ {
+  "req": "Armistice",
+  "title": "Armistice",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Formal agreement to stop fighting a war",
+  "kind": null
+ },
+ {
+  "req": "Chalcidice",
+  "title": "Chalkidiki",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox greece place",
+  "desc": "Peninsula in Macedonia, Greece",
+  "kind": null
+ },
+ {
+  "req": "Torone",
+  "title": "Toroni",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greek dimos",
+  "desc": "Municipal unit in Greece",
+  "kind": null
+ },
+ {
+  "req": "Thasos",
+  "title": "Thasos",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox greece place",
+  "desc": "Greek island in the North Aegean Sea",
+  "kind": null
+ },
+ {
+  "req": "Second Peloponnesian War",
+  "title": "Peloponnesian War",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox military conflict",
+  "desc": "War between Athens and Sparta (431\u2013404 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Cavalry",
+  "title": "Cavalry",
+  "seed": false,
+  "links": 6,
+  "infobox": "",
+  "desc": "Soldiers or warriors fighting from horseback",
+  "kind": null
+ },
+ {
+  "req": "Methymna",
+  "title": "Mithymna",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox greek dimos",
+  "desc": "Municipal unit in Greece",
+  "kind": null
+ },
+ {
+  "req": "Arginusae",
+  "title": "Arginusae",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Three islands off the coast of Turkey in classical antiquity",
+  "kind": null
+ },
+ {
+  "req": "Apaturia",
+  "title": "Apaturia",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Religious festival in ancient Athens",
+  "kind": null
+ },
+ {
+  "req": "Miletus",
+  "title": "Miletus",
+  "seed": false,
+  "links": 9,
+  "infobox": "infobox historic site",
+  "desc": "Ancient Greek city in Anatolia",
+  "kind": "polity"
+ },
+ {
+  "req": "Imbros",
+  "title": "Imbros",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox islands",
+  "desc": "Island in Turkey",
+  "kind": null
+ },
+ {
+  "req": "Athenian Empire",
+  "title": "Delian League",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox country",
+  "desc": "Association of ancient Greek city-states under Athenian hegemony",
+  "kind": "polity"
+ },
+ {
+  "req": "Lemnos",
+  "title": "Lemnos",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greek dimos",
+  "desc": "Greek island in the northern Aegean Sea",
+  "kind": null
+ },
+ {
+  "req": "Satrapy",
+  "title": "Satrap",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Ruler of a province in ancient Persia",
+  "kind": "person"
+ },
+ {
+  "req": "Triremes",
+  "title": "Trireme",
+  "seed": false,
+  "links": 6,
+  "infobox": "",
+  "desc": "Ancient vessel with three banks of oars",
+  "kind": null
+ },
+ {
+  "req": "Syracuse, Italy",
+  "title": "Syracuse, Sicily",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox italian comune",
+  "desc": "City in Sicily, Italy",
+  "kind": "polity"
+ },
+ {
+  "req": "Delium",
+  "title": "Delium",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Historical Greek town",
+  "kind": null
+ },
+ {
+  "req": "Sicyon",
+  "title": "Sicyon",
+  "seed": false,
+  "links": 6,
+  "infobox": "",
+  "desc": "Ancient Greek city",
+  "kind": "polity"
+ },
+ {
+  "req": "Metic",
+  "title": "Metic",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "Free non-citizen resident of Athens",
+  "kind": null
+ },
+ {
+  "req": "Haliartus",
+  "title": "Haliartus",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Town of ancient Boeotia, Greece",
+  "kind": null
+ },
+ {
+  "req": "Spartans",
+  "title": "Sparta",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox former country",
+  "desc": "City-state in ancient Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Phocis",
+  "title": "Phocis",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox greece place",
+  "desc": "Regional unit in Greece",
+  "kind": null
+ },
+ {
+  "req": "Tanagra",
+  "title": "Tanagra",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox greek dimos",
+  "desc": "Municipality in Greece",
+  "kind": null
+ },
+ {
+  "req": "Oropos",
+  "title": "Oropos",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greek dimos",
+  "desc": "Town in Attica, Greece",
+  "kind": null
+ },
+ {
+  "req": "Eretria",
+  "title": "Eretria",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox greek dimos",
+  "desc": "Town in Euboea, Greece",
+  "kind": null
+ },
+ {
+  "req": "Orneae",
+  "title": "Orneae",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Town in ancient Argolis",
+  "kind": null
+ },
+ {
+  "req": "Mende (Chalcidice)",
+  "title": "Mende (Chalcidice)",
+  "seed": false,
+  "links": 6,
+  "infobox": "",
+  "desc": "Ancient Greek city",
+  "kind": "polity"
+ },
+ {
+  "req": "Macedon",
+  "title": "Macedonia (ancient kingdom)",
+  "seed": false,
+  "links": 11,
+  "infobox": "infobox former country",
+  "desc": "Ancient Greek kingdom in the southern Balkans",
+  "kind": "polity"
+ },
+ {
+  "req": "Arrhabaeus",
+  "title": "Arrhabaeus",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Index of articles associated with the same name",
+  "kind": null
+ },
+ {
+  "req": "Argives",
+  "title": "Achaeans (Homer)",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Collective name of the Greeks in Homer's poems",
+  "kind": null
+ },
+ {
+  "req": "Ancient Argos",
+  "title": "Argos, Peloponnese",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox greece place",
+  "desc": "City in Argolis, Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Hegemony",
+  "title": "Hegemony",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Political, economic or military predominance of one state over other states",
+  "kind": null
+ },
+ {
+  "req": "Sphacteria",
+  "title": "Sphacteria",
+  "seed": false,
+  "links": 8,
+  "infobox": "infobox islands",
+  "desc": "Small island in Greece, site of three battles",
+  "kind": null
+ },
+ {
+  "req": "Gulf of Corinth",
+  "title": "Gulf of Corinth",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox body of water",
+  "desc": "Inlet between mainland Greece and the Peloponnese",
+  "kind": null
+ },
+ {
+  "req": "Blockade",
+  "title": "Blockade",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Prevention of trade or movement by force",
+  "kind": null
+ },
+ {
+  "req": "Achaea",
+  "title": "Achaea",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox greece place",
+  "desc": "Regional unit in Greece",
+  "kind": null
+ },
+ {
+  "req": "Antirrhium",
+  "title": "Antirrio",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greek dimos",
+  "desc": "Town in Aetolia, Greece",
+  "kind": null
+ },
+ {
+  "req": "Aegean Sea",
+  "title": "Aegean Sea",
+  "seed": false,
+  "links": 13,
+  "infobox": "infobox body of water",
+  "desc": "Mediterranean between Greece and Turkey",
+  "kind": null
+ },
+ {
+  "req": "Obol (coin)",
+  "title": "Obol (coin)",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Unit of ancient Greek coinage",
+  "kind": null
+ },
+ {
+  "req": "Eurylochus (Spartan general)",
+  "title": "Eurylochus (Spartan general)",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Spartan general",
+  "kind": "person"
+ },
+ {
+  "req": "Ionian Sea",
+  "title": "Ionian Sea",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox body of water",
+  "desc": "Part of the Mediterranean Sea south of the Adriatic Sea",
+  "kind": null
+ },
+ {
+  "req": "Spartiate",
+  "title": "Spartiate",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Citizens of ancient Sparta",
+  "kind": null
+ },
+ {
+  "req": "Helot",
+  "title": "Helots",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Subjugated population in ancient Sparta",
+  "kind": null
+ },
+ {
+  "req": "Cephallenia",
+  "title": "Cephalonia",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greece place",
+  "desc": "Largest of the Ionian Islands, Greece",
+  "kind": null
+ },
+ {
+  "req": "Archery",
+  "title": "Archery",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Using a bow to shoot arrows",
+  "kind": null
+ },
+ {
+  "req": "Halicarnassus",
+  "title": "Halicarnassus",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox historic site",
+  "desc": "Ancient Carian city, present day Bodrum in Turkey",
+  "kind": "polity"
+ },
+ {
+  "req": "Symi",
+  "title": "Symi",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greek dimos",
+  "desc": "Greek island in the Aegean Sea",
+  "kind": null
+ },
+ {
+  "req": "Karl Julius Beloch",
+  "title": "Karl Julius Beloch",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "German classical and economic historian (1854\u20131929)",
+  "kind": "person"
+ },
+ {
+  "req": "Pausanias (general)",
+  "title": "Pausanias the Regent",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox royalty",
+  "desc": "Spartan general and regent (died c. 477 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Peloponnesian",
+  "title": "Peloponnese",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox settlement",
+  "desc": "Traditional peninsular region in Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Eduard Meyer",
+  "title": "Eduard Meyer",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "German historian (1855\u20131930)",
+  "kind": "person"
+ },
+ {
+  "req": "Illyria",
+  "title": "Illyria",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox settlement",
+  "desc": "Historical region in Western Balkan, Southeast Europe",
+  "kind": "polity"
+ },
+ {
+  "req": "Georg Busolt",
+  "title": "Georg Busolt",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "German classical historian (1850\u20131920)",
+  "kind": "person"
+ },
+ {
+  "req": "Lydia",
+  "title": "Lydia",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox country",
+  "desc": "Ancient Anatolian kingdom",
+  "kind": "polity"
+ },
+ {
+  "req": "Proxeny",
+  "title": "Proxeny",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Voluntary diplomatic position in classical Greece",
+  "kind": null
+ },
+ {
+  "req": "The Frogs",
+  "title": "The Frogs",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox play",
+  "desc": "Comedy by Aristophanes",
+  "kind": "work"
+ },
+ {
+  "req": "The Knights",
+  "title": "The Knights",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox play",
+  "desc": "Comedy by Aristophanes",
+  "kind": "work"
+ },
+ {
+  "req": "J. B. Bury",
+  "title": "J. B. Bury",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox scholar",
+  "desc": "Anglo-Irish historian and classical scholar (1861\u20131927)",
+  "kind": "person"
+ },
+ {
+  "req": "The Birds (play)",
+  "title": "The Birds (play)",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox play",
+  "desc": "Comedy by Aristophanes",
+  "kind": "work"
+ },
+ {
+  "req": "Rhegium",
+  "title": "Reggio Calabria",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox italian comune",
+  "desc": "City in Calabria, Italy",
+  "kind": "polity"
+ },
+ {
+  "req": "Sicels",
+  "title": "Sicels",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Original inhabitants of Sicily",
+  "kind": null
+ },
+ {
+  "req": "Gela",
+  "title": "Gela",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox italian comune",
+  "desc": "Comune in Sicily, Italy",
+  "kind": null
+ },
+ {
+  "req": "Leontini",
+  "title": "Lentini",
+  "seed": false,
+  "links": 5,
+  "infobox": "infobox italian comune",
+  "desc": "Comune in Sicily, Italy",
+  "kind": null
+ },
+ {
+  "req": "Long walls",
+  "title": "Long Walls",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "City wall in ancient Athens",
+  "kind": "polity"
+ },
+ {
+  "req": "Tiribazus",
+  "title": "Tiribazus",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox officeholder",
+  "desc": "Achaemenid satrap (c. 440 BC-370 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Battle of Cnidus",
+  "title": "Battle of Cnidus",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox military conflict",
+  "desc": "394 BCE naval engagement between the Achaemenid Empire and Sparta",
+  "kind": "event"
+ },
+ {
+  "req": "Lunar eclipse",
+  "title": "Lunar eclipse",
+  "seed": false,
+  "links": 5,
+  "infobox": "",
+  "desc": "Natural phenomenon wherein the Earth casts a shadow on the Moon",
+  "kind": null
+ },
+ {
+  "req": "General",
+  "title": "General officer",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Military rank",
+  "kind": null
+ },
+ {
+  "req": "Spartan Army",
+  "title": "Spartan army",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox military unit",
+  "desc": "Army of the ancient Greek city-state of Sparta",
+  "kind": "polity"
+ },
+ {
+  "req": "Troad",
+  "title": "Troad",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox",
+  "desc": "Historical name of the Turkish Biga Peninsula",
+  "kind": null
+ },
+ {
+  "req": "Corinthian War",
+  "title": "Corinthian War",
+  "seed": false,
+  "links": 9,
+  "infobox": "infobox military conflict",
+  "desc": "Ancient Greek war (395\u2013387 BC)",
+  "kind": "event"
+ },
+ {
+  "req": "Polyaenus",
+  "title": "Polyaenus",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "2nd-century Roman Macedonian author and rhetorician",
+  "kind": "person"
+ },
+ {
+  "req": "Kerameikos",
+  "title": "Kerameikos",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox settlement",
+  "desc": "Area of Athens, Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Simon Hornblower",
+  "title": "Simon Hornblower",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "English historian of ancient Greece (born 1949)",
+  "kind": "person"
+ },
+ {
+  "req": "Samian War",
+  "title": "Samian War",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox military conflict",
+  "desc": "5th century BCE military conflict between Athens and the island of Samos",
+  "kind": "event"
+ },
+ {
+  "req": "Ephorus",
+  "title": "Ephorus",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox person",
+  "desc": "Greek historian (c. 400 \u2013 330 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "Oreus",
+  "title": "Oreus",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox historic site",
+  "desc": "Town near the north coast of ancient Euboea",
+  "kind": null
+ },
+ {
+  "req": "Boeotians",
+  "title": "Boeotia",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greece place",
+  "desc": "Region of Greece",
+  "kind": null
+ },
+ {
+  "req": "Ancient Thessaly",
+  "title": "Ancient Thessaly",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox settlement",
+  "desc": "Traditional region of Ancient Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Dorians",
+  "title": "Dorians",
+  "seed": false,
+  "links": 8,
+  "infobox": "",
+  "desc": "Ancient Greek tribe",
+  "kind": null
+ },
+ {
+  "req": "Apollo",
+  "title": "Apollo",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox deity",
+  "desc": "Ancient Greek god",
+  "kind": null
+ },
+ {
+  "req": "Inscriptiones Graecae",
+  "title": "Inscriptiones Graecae",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "German academic project",
+  "kind": null
+ },
+ {
+  "req": "Demeter",
+  "title": "Demeter",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox deity",
+  "desc": "Greek goddess of the harvest, grains, and agriculture",
+  "kind": null
+ },
+ {
+  "req": "Megarian decree",
+  "title": "Megarian Decree",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Economic sanctions imposed by the Delian League on Megara",
+  "kind": "event"
+ },
+ {
+  "req": "Ernst Badian",
+  "title": "Ernst Badian",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Austrian classical scholar (1925\u20132011)",
+  "kind": null
+ },
+ {
+  "req": "Pericles' Funeral Oration",
+  "title": "Pericles's Funeral Oration",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox event",
+  "desc": "Speech during the Peloponnesian War",
+  "kind": "work"
+ },
+ {
+  "req": "Delos",
+  "title": "Delos",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox islands",
+  "desc": "Island in Greece",
+  "kind": null
+ },
+ {
+  "req": "Olympia, Greece",
+  "title": "Olympia, Greece",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox greek dimos",
+  "desc": "Town in Elis, Greece",
+  "kind": null
+ },
+ {
+  "req": "Nisaea",
+  "title": "Nisaea",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "",
+  "kind": null
+ },
+ {
+  "req": "Thomas Hobbes",
+  "title": "Thomas Hobbes",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox philosopher",
+  "desc": "English philosopher and political theorist (1588\u20131679)",
+  "kind": "person"
+ },
+ {
+  "req": "Camarina",
+  "title": "Kamarina, Sicily",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox historic site",
+  "desc": "Ancient Greek city state in Sicily",
+  "kind": "polity"
+ },
+ {
+  "req": "Epaminondas",
+  "title": "Epaminondas",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox military person",
+  "desc": "Theban general and statesman (419/411\u2013362 BC)",
+  "kind": "person"
+ },
+ {
+  "req": "G.E.M. de Ste. Croix",
+  "title": "G. E. M. de Ste. Croix",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox academic",
+  "desc": "British historian of Ancient Greece (1910\u20132000)",
+  "kind": "person"
+ },
+ {
+  "req": "Philip II of Macedon",
+  "title": "Philip II of Macedon",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox royalty",
+  "desc": "King of Macedon from 359 to 336 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Second Persian invasion of Greece",
+  "title": "Second Persian invasion of Greece",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox military conflict",
+  "desc": "480\u2013479 BC phase of the Greco-Persian Wars",
+  "kind": "event"
+ },
+ {
+  "req": "Alexander the Great",
+  "title": "Alexander the Great",
+  "seed": false,
+  "links": 7,
+  "infobox": "infobox royalty",
+  "desc": "King of Macedon from 336 to 323 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Athenian navy",
+  "title": "Athenian military",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Military forces of Athens in Ancient Greece",
+  "kind": null
+ },
+ {
+  "req": "Dionysus",
+  "title": "Dionysus",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox deity",
+  "desc": "Ancient Greek god of winemaking and wine",
+  "kind": null
+ },
+ {
+  "req": "Boeotian League",
+  "title": "Boeotia",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greece place",
+  "desc": "Region of Greece",
+  "kind": null
+ },
+ {
+  "req": "Sardis",
+  "title": "Sardis",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox historic site",
+  "desc": "Ancient city in Turkey",
+  "kind": "polity"
+ },
+ {
+  "req": "G. E. M. de Ste. Croix",
+  "title": "G. E. M. de Ste. Croix",
+  "seed": false,
+  "links": 6,
+  "infobox": "infobox academic",
+  "desc": "British historian of Ancient Greece (1910\u20132000)",
+  "kind": "person"
+ },
+ {
+  "req": "Cleruchy",
+  "title": "Cleruchy",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Specialized type of colony established by Athens",
+  "kind": null
+ },
+ {
+  "req": "Ionians",
+  "title": "Ionians",
+  "seed": false,
+  "links": 6,
+  "infobox": "",
+  "desc": "Ancient Greek tribe",
+  "kind": null
+ },
+ {
+  "req": "Archelaus I of Macedon",
+  "title": "Archelaus of Macedon",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox royalty",
+  "desc": "King of Macedon from 413 to 399 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Lynkestis",
+  "title": "Lynkestis",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Historical region in Upper Macedonia",
+  "kind": null
+ },
+ {
+  "req": "Abdera, Thrace",
+  "title": "Abdera, Thrace",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox greek dimos",
+  "desc": "Municipality in the Xanthi Prefecture of Thrace, Greece",
+  "kind": null
+ },
+ {
+  "req": "Sophist",
+  "title": "Sophist",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Teachers of 5th century BC Greece",
+  "kind": null
+ },
+ {
+  "req": "Circumvallation",
+  "title": "Investment (military)",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Military term for surrounding an enemy position",
+  "kind": null
+ },
+ {
+  "req": "A. W. Gomme",
+  "title": "Arnold Wycombe Gomme",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "British classical scholar (1886\u20131959)",
+  "kind": null
+ },
+ {
+  "req": "Chalkidiki",
+  "title": "Chalkidiki",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox greece place",
+  "desc": "Peninsula in Macedonia, Greece",
+  "kind": null
+ },
+ {
+  "req": "Air University (United States Air Force)",
+  "title": "Air University (United States Air Force)",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox university",
+  "desc": "U.S. Air Force military education institution",
+  "kind": null
+ },
+ {
+  "req": "Reaktion Books",
+  "title": "Reaktion Books",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox publisher",
+  "desc": "UK independent book publisher founded 1985",
+  "kind": "work"
+ },
+ {
+  "req": "Himera",
+  "title": "Himera",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox historic site",
+  "desc": "Ancient city",
+  "kind": "polity"
+ },
+ {
+  "req": "Slavery",
+  "title": "Slavery",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Ownership of people as property",
+  "kind": null
+ },
+ {
+  "req": "Arcadia (region)",
+  "title": "Arcadia (region)",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox settlement",
+  "desc": "Historical region in Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Phocis (ancient region)",
+  "title": "Phocis (ancient region)",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox settlement",
+  "desc": "Region of ancient Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Loeb Classical Library",
+  "title": "Loeb Classical Library",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "Series of Greek and Latin texts with English translations",
+  "kind": null
+ },
+ {
+  "req": "Doris (Greece)",
+  "title": "Doris (Greece)",
+  "seed": false,
+  "links": 4,
+  "infobox": "infobox settlement",
+  "desc": "Region of Ancient Greece",
+  "kind": "polity"
+ },
+ {
+  "req": "Harvard University Press",
+  "title": "Harvard University Press",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox publisher",
+  "desc": "American publishing house",
+  "kind": null
+ },
+ {
+  "req": "Moralia",
+  "title": "Moralia",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox book",
+  "desc": "Group of works of the ancient Greek writer Plutarch",
+  "kind": "work"
+ },
+ {
+  "req": "Battle of Leuctra",
+  "title": "Battle of Leuctra",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox military conflict",
+  "desc": "Thebes' victory against Sparta in 371 BC",
+  "kind": "event"
+ },
+ {
+  "req": "Ecclesia (Sparta)",
+  "title": "Spartan Assembly",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Citizens' assembly in ancient Sparta",
+  "kind": null
+ },
+ {
+  "req": "Paul Cartledge",
+  "title": "Paul Cartledge",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox academic",
+  "desc": "British ancient Greece historian (born 1947)",
+  "kind": "person"
+ },
+ {
+  "req": "Archon",
+  "title": "Archon",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Greek term for a ruler",
+  "kind": "person"
+ },
+ {
+  "req": "History of Athens",
+  "title": "History of Athens",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox settlement",
+  "desc": "Historical summary of Athens",
+  "kind": "polity"
+ },
+ {
+  "req": "Amyntas III of Macedon",
+  "title": "Amyntas III of Macedon",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox royalty",
+  "desc": "King of Macedonia from 393/2 to 370 BC",
+  "kind": "person"
+ },
+ {
+  "req": "Ancient Greek religion",
+  "title": "Ancient Greek religion",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "",
+  "kind": null
+ },
+ {
+  "req": "Peace of Antalcidas",
+  "title": "Peace of Antalcidas",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "387 BC peace treaty ending the Corinthian War",
+  "kind": "event"
+ },
+ {
+  "req": "Etruscan cities",
+  "title": "Etruscan cities",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "",
+  "kind": null
+ },
+ {
+  "req": "Philipp Foltz",
+  "title": "Philipp Foltz",
+  "seed": false,
+  "links": 3,
+  "infobox": "",
+  "desc": "German history painter (1805\u20131877)",
+  "kind": null
+ },
+ {
+  "req": "Bubonic plague",
+  "title": "Bubonic plague",
+  "seed": false,
+  "links": 3,
+  "infobox": "infobox medical condition",
+  "desc": "Human and animal disease",
+  "kind": "event"
+ },
+ {
+  "req": "Talent (measurement)",
+  "title": "Talent (measurement)",
+  "seed": false,
+  "links": 4,
+  "infobox": "",
+  "desc": "Ancient unit of mass",
+  "kind": null
+ }
+]

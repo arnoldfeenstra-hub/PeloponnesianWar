@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.local
+.env*.local
+.vercel/
+pipeline/.cache/
+pipeline/*.out
+__pycache__/
+qa/screenshots/*.tmp.png
+qa/screenshots/t-*.png

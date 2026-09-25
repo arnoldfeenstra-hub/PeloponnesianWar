@@ -1,0 +1,45 @@
+{
+  "name": "peloponnesian-war-graph",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc --noEmit",
+    "data:fetch": "python3 pipeline/discover.py && python3 pipeline/build.py && python3 pipeline/images.py",
+    "data:art": "python3 pipeline/artwork.py",
+    "db:load": "python3 db/load.py",
+    "db:export": "node --experimental-strip-types scripts/export.ts",
+    "qa": "node qa/qa.mjs"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "d3-ease": "^3.0.1",
+    "d3-force": "^3.0.0",
+    "d3-interpolate": "^3.0.1",
+    "d3-quadtree": "^3.0.1",
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^3.0.0",
+    "d3-transition": "^3.0.1",
+    "d3-zoom": "^3.0.0",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "@types/d3-ease": "^3.0.2",
+    "@types/d3-force": "^3.0.10",
+    "@types/d3-interpolate": "^3.0.4",
+    "@types/d3-quadtree": "^3.0.6",
+    "@types/d3-scale": "^4.0.9",
+    "@types/d3-selection": "^3.0.12",
+    "@types/d3-transition": "^3.0.9",
+    "@types/d3-zoom": "^3.0.8",
+    "@types/node": "^26.6.2",
+    "@types/pg": "^8.23.1",
+    "@vercel/node": "^15.0.0",
+    "playwright": "^1.63.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  }
+}
