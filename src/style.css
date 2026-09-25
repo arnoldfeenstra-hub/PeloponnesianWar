@@ -159,6 +159,13 @@ body.panel-open .graph-controls { left: calc(50% - var(--panel-w) / 2); }
   border: 1px solid var(--line); border-radius: 999px; box-shadow: var(--shadow);
 }
 .zoom { gap: 0; padding: 4px; }
+.wander {
+  display: inline-flex; align-items: center; gap: 6px; height: 42px; padding: 0 16px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--ink); color: var(--bg); box-shadow: var(--shadow);
+  font-family: var(--sans); font-size: 12.5px; font-weight: 600; letter-spacing: .04em; white-space: nowrap;
+}
+.wander span { font-size: 16px; }
+.wander:hover { background: var(--sparta); border-color: var(--sparta); }
 .zoom button { width: 32px; height: 32px; border: 0; background: none; border-radius: 50%; font-family: var(--sans); font-size: 16px; color: var(--ink-2); }
 .zoom button:hover, .round:hover { background: var(--surface-2); }
 .round { width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); font-size: 11px; }
@@ -172,7 +179,7 @@ body.panel-open .graph-controls { left: calc(50% - var(--panel-w) / 2); }
 .chip.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 .chip:hover { border-color: var(--muted); }
 body[data-view="timeline"] .legend, body[data-view="timeline"] .graph-controls,
-body[data-view="path"] .graph-controls .yearbar { display: none; }
+body[data-view="path"] .graph-controls .yearbar, body[data-view="path"] .wander { display: none; }
 
 /* ---------------------------------------------------------------- hover card */
 #hovercard {
@@ -232,6 +239,13 @@ body.panel-open #panel { transform: none; }
 .dyk .src { font-family: var(--sans); font-size: 10.5px; color: var(--muted); }
 .story { margin: 16px 0; }
 .story p { margin: 6px 0 0; font-size: 16px; line-height: 1.55; color: var(--ink-2); }
+.chrono { margin: 18px 0 6px; }
+.chrono ol { list-style: none; margin: 8px 0 0; padding: 0 0 0 8px; border-left: 1.5px solid var(--faint); }
+.chrono li { position: relative; }
+.chrono li::before { content: ""; position: absolute; left: -12.5px; top: 13px; width: 8px; height: 8px; border-radius: 50%; background: var(--surface); border: 1.5px solid var(--muted); }
+.conn.chrono-i { grid-template-columns: 34px 14px 1fr; row-gap: 0; }
+.chrono-i .cy { font-family: var(--sans); font-size: 11px; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chrono-i .cv { grid-column: 3; font-family: var(--sans); font-size: 10.5px; color: var(--muted); }
 .actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0 8px; }
 .actions button {
   border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 7px 14px;
@@ -383,6 +397,7 @@ body:not(.ready) #intro { opacity: 0; }
   transition: opacity .25s, transform .25s; pointer-events: none;
 }
 #toast.on { opacity: 1; transform: translate(-50%, 0); }
+#toast { max-width: min(640px, calc(100% - 32px)); text-align: center; line-height: 1.4; }
 
 /* ---------------------------------------------------------------- footer */
 .colophon {
@@ -403,10 +418,16 @@ body:not(.ready) #intro { opacity: 0; }
   :root { --panel-w: 100%; }
   body { font-size: 16px; }
   .masthead { flex-wrap: wrap; gap: 8px 10px; padding: 10px 16px; }
+  .brand { flex: 1; }
   .brand-title { font-size: 20px; }
+  #theme { order: 1; }
+  .search-wrap { order: 2; flex: 1 1 100%; }
   .views { order: 3; width: 100%; justify-content: space-between; }
-  .views button { flex: 1; padding: 6px 8px; }
-  .search-wrap { order: 2; flex: 1; }
+  .views button { flex: 1; padding: 5px 8px; }
+  .hero img { max-height: 190px; }
+  .hero.glyph { height: 110px; }
+  .p-body { padding: 14px 18px 24px; }
+  .p-body h2 { font-size: 30px; }
   .search-wrap input, .search-wrap input:focus { width: 100%; }
   .search-wrap kbd { display: none; }
   #panel { top: auto; height: 62%; width: 100%; border-left: 0; border-top: 1px solid var(--line); border-radius: 16px 16px 0 0; transform: translateY(100%); }
@@ -414,6 +435,9 @@ body:not(.ready) #intro { opacity: 0; }
   body.panel-open .timeline { right: 0; }
   .graph-controls { bottom: 12px; width: calc(100% - 32px); justify-content: center; }
   .yb-k { display: none; }
+  .zoom { display: none; }
+  .wander { height: 40px; padding: 0 12px; }
+  body.panel-open .graph-controls { display: none; }
   #year { width: 100%; min-width: 60px; }
   .yearbar { flex: 1; }
   #path-ui { left: 16px; right: 16px; width: auto; top: auto; bottom: 16px; max-height: 55%; }

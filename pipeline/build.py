@@ -194,7 +194,7 @@ def work_dates(ib, desc, lead):
         ys, ap = parse_span(src)
         if ys:
             return dict(start=ys[0], end=ys[-1], approx=ap)
-    m = re.search(r"(?:produced|performed|staged|written|premiered|composed)[^.]{0,60}?(\d{3})\s*BC", lead or "")
+    m = re.search(r"(?:produced|performed|staged|written|premiered|composed)[^.]{0,160}?(\d{3})\s*BC", lead or "")
     if m:
         return dict(start=-int(m.group(1)), end=-int(m.group(1)), approx=False)
     return dict(start=None, end=None, approx=False)
@@ -357,6 +357,7 @@ def main():
         nodes[m["title"]] = n
         return n
 
+    seed_work_authors = []
     for t in sorted(pages):
         if t == "Peloponnesian War":
             continue
@@ -374,6 +375,14 @@ def main():
             n.update(d)
         elif is_event:
             m = meta(t)
+            if any(k in m["ib"] for k in ("writer", "author", "playwright")):
+                # e.g. Aristophanes' "Peace": a work filed in the war's category
+                n = add(t, "work", t in seed_events)
+                n.update(work_dates(m["ib"], m["desc"], m["lead"]))
+                for k in ("writer", "author", "playwright"):
+                    for tgt, _, _ in split_markers(m["ib"].get(k, "")):
+                        seed_work_authors.append((tgt, n["title"]))
+                continue
             d = event_dates(m["ib"], m["desc"], m["title"], m["lead"])
             if t not in seed_events and (d["start"] is None or not (-446 <= d["start"] <= -399)):
                 continue
@@ -487,7 +496,7 @@ def main():
     wl = wiki.batch_pages(wlist, "extracts", per=20, exintro=1, explaintext=1, exlimit=20,
                           exsectionformat="plain")
     person_by_title = {t for t, n in nodes.items() if n["type"] == "person"}
-    work_author_edges = []
+    work_author_edges = [(a, w) for a, w in seed_work_authors if a in person_by_title]
     for t in wlist:
         p = wp.get(t)
         if not p or "revisions" not in p:
@@ -686,6 +695,8 @@ def main():
                 n["side"] = "sparta"
             elif re.search(r"\b(persian|achaemenid|satrap)\b", d):
                 n["side"] = "persia"
+            if n.get("side"):
+                n["side_src"] = "Wikipedia short description"
 
     # ---- campaign phases, as grouped in Template:Campaignbox Peloponnesian War
     box, _ = wiki.wikitext("Template:Campaignbox Peloponnesian War")
@@ -709,8 +720,8 @@ def main():
     # ---- derived allegiance, recorded with its provenance
     id2node = {n["id"]: n for n in nodes.values()}
     for n in nodes.values():
-        if n.get("side"):
-            n["side_src"] = "Wikipedia category or infobox" if n["type"] == "person" else "principal belligerent"
+        if n.get("side") and not n.get("side_src"):
+            n["side_src"] = "Wikipedia category" if n["type"] == "person" else "principal belligerent"
     ev_sides = collections.defaultdict(lambda: collections.defaultdict(set))
     for e in E.values():
         ev = id2node.get(e["target"])

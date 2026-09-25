@@ -9,12 +9,15 @@ export default async function handler(_req: unknown, res: any) {
     res.status(503).json({ error: "DATABASE_URL not configured" });
     return;
   }
-  pool ??= new pg.Pool({ connectionString: url, max: 2, ssl: { rejectUnauthorized: false } });
+  const local = /@(localhost|127\.0\.0\.1)[:/]|sslmode=disable/.test(url);
+  pool ??= new pg.Pool({ connectionString: url, max: 2, ssl: local ? false : { rejectUnauthorized: false } });
   try {
     const graph = await loadGraph(pool);
     res.setHeader("Cache-Control", "public, s-maxage=3600, stale-while-revalidate=86400");
     res.status(200).json(graph);
   } catch (err) {
+    // Log the message only: never the connection string.
+    console.error("graph query failed:", (err as Error).message?.replace(/postgres(ql)?:\/\/\S+/g, "<redacted>"));
     res.status(500).json({ error: "database query failed" });
   }
 }

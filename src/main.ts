@@ -185,6 +185,7 @@ class App {
         ${n.bio ? `<p class="p-bio">${esc(n.bio)}</p>` : ""}
         ${n.dyk ? `<aside class="dyk"><div class="kicker">Did you know…</div><p>${esc(n.dyk.replace(/^\.\.\.\s*/, "… "))}</p><div class="src">Wikipedia’s “Did you know” feature</div></aside>` : ""}
         ${n.story ? `<section class="story"><div class="kicker">From “${esc(n.story_section ?? "")}”</div><p>${esc(n.story)}</p></section>` : ""}
+        ${chronology(n)}
         <div class="actions">
           <button data-act="path">Find a path from here</button>
           <button data-act="${this.view === "timeline" ? "graph" : "timeline"}">${this.view === "timeline" ? "Show in graph" : "Show on timeline"}</button>
@@ -202,6 +203,10 @@ class App {
         <p class="p-src">Text from the Wikipedia article <a href="${esc(rev)}" target="_blank" rel="noopener">“${esc(n.title)}” (revision ${n.revid})</a>, CC BY-SA 4.0. <a href="${esc(n.url)}" target="_blank" rel="noopener">Read on Wikipedia ↗</a></p>
       </div>`;
     this.panel.scrollTop = 0;
+    const heroImg = this.panel.querySelector<HTMLImageElement>(".hero img");
+    heroImg?.addEventListener("error", () => {
+      heroImg.closest(".hero")!.outerHTML = `<div class="hero glyph t-${n.type} s-${n.side ?? "none"}"><span>${esc(initials(n.title))}</span></div>`;
+    });
     $(".close", this.panel).addEventListener("click", () => this.clear());
     this.panel.querySelectorAll<HTMLButtonElement>(".conn").forEach((b) =>
       b.addEventListener("click", () => this.go(this.view === "path" ? "graph" : this.view, m.byId.get(b.dataset.id!)!)));
@@ -323,6 +328,7 @@ class App {
   bindChrome() {
     document.querySelectorAll<HTMLButtonElement>(".views button").forEach((b) =>
       b.addEventListener("click", () => this.go(b.dataset.v as View, b.dataset.v === "path" ? null : this.selected)));
+    $("#wander").addEventListener("click", () => this.wander());
     $("#zoom-in").addEventListener("click", () => this.graph.zoomBy(1.4));
     $("#zoom-out").addEventListener("click", () => this.graph.zoomBy(1 / 1.4));
     $("#zoom-fit").addEventListener("click", () => { this.clear(); this.graph.fitAll(); });
@@ -339,6 +345,7 @@ class App {
       const tag = (ev.target as HTMLElement).tagName;
       if (ev.key === "/" && tag !== "INPUT") { ev.preventDefault(); $<HTMLInputElement>("#search").focus(); }
       if (ev.key === "Escape" && tag !== "INPUT") { $("#about").hidden = true; this.clear(); }
+      if ((ev.key === "w" || ev.key === "W") && tag !== "INPUT" && !ev.metaKey && !ev.ctrlKey && this.view === "graph") this.wander();
     });
     $("#about-open").addEventListener("click", () => ($("#about").hidden = false));
     $("#about").addEventListener("click", (ev) => { if (ev.target === ev.currentTarget || (ev.target as HTMLElement).matches(".close")) $("#about").hidden = true; });
@@ -375,6 +382,34 @@ class App {
     });
   }
 
+  /** Random walk: hop to a neighbour, favouring strong ties and places not yet visited. */
+  visited = new Set<GNode>();
+  wander() {
+    if (this.view !== "graph") this.setView("graph");
+    const from = this.selected;
+    let next: GNode;
+    if (!from) {
+      const pool = this.model.nodes.filter((n) => n.type !== "polity" && n.deg >= 6);
+      next = pool[Math.floor(Math.random() * pool.length)];
+      this.visited.clear();
+    } else {
+      const opts = from.links.map((l) => ({ n: l.source === from ? l.target : l.source, l }))
+        .filter(({ n, l }) => n.type !== "polity" && !(l.types.size === 1 && l.types.has("allegiance")) && this.graph.isVisible(n));
+      if (!opts.length) return;
+      const w = opts.map(({ n, l }) => (0.3 + l.strength) * (this.visited.has(n) ? 0.08 : 1) * (1 + Math.min(n.deg, 20) / 20));
+      let r = Math.random() * w.reduce((a, b) => a + b, 0);
+      let i = 0;
+      while ((r -= w[i]) > 0 && i < w.length - 1) i++;
+      next = opts[i].n;
+      const l = opts[i].l;
+      const tmp = document.createElement("div");
+      tmp.innerHTML = hopText(from, next, l);
+      this.toast(tmp.querySelector(".rel-t")?.textContent ?? `${from.title} \u2192 ${next.title}`);
+    }
+    this.visited.add(next);
+    this.go("graph", next);
+  }
+
   stopPlay() {
     if (this.playTimer) { clearInterval(this.playTimer); this.playTimer = 0; }
     $("#year-play").textContent = "▶";
@@ -395,9 +430,26 @@ class App {
     const t = $("#toast");
     t.textContent = msg;
     t.classList.add("on");
+    if (msg.length > 80) t.classList.add("long"); else t.classList.remove("long");
     clearTimeout((t as any)._t);
     (t as any)._t = setTimeout(() => t.classList.remove("on"), 2600);
   }
+}
+
+/** A figure's (or polity's) dated battles and works, in order: the career at a glance. */
+function chronology(n: GNode): string {
+  if (n.type !== "person" && n.type !== "polity") return "";
+  const items = n.links
+    .map((l) => ({ o: l.source === n ? l.target : l.source, l }))
+    .filter(({ o, l }) => (o.type === "event" || o.type === "work") && o.start != null &&
+      (l.types.has("commanded") || l.types.has("fought") || l.types.has("wrote")))
+    .sort((a, b) => a.o.start! - b.o.start!);
+  if (items.length < 2) return "";
+  return `<section class="chrono"><div class="kicker">${n.type === "person" ? "Career" : "At war"}, from Wikipedia infoboxes</div><ol>${items.map(({ o, l }) => {
+    const flags = l.rels.flatMap((r) => r.flags ?? []);
+    const verb = l.types.has("wrote") ? "wrote" : l.types.has("commanded") ? "commanded" : "fought";
+    return `<li><button class="conn chrono-i" data-id="${o.id}"><span class="cy">${Math.abs(o.start!)}</span><span class="g t-${o.type}">${GLYPH[o.type]}</span><span class="cn">${esc(o.title)}</span><span class="cv">${verb}${flags.length ? " \u00b7 " + esc([...new Set(flags)].join(", ")) : ""}</span></button></li>`;
+  }).join("")}</ol></section>`;
 }
 
 function relRank(t: string) { return ["commanded", "wrote", "fought", "mentions", "allegiance"].indexOf(t); }

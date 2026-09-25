@@ -33,11 +33,31 @@ def main():
         small = os.path.join(OUT, f"{n['id']}-s.jpg")
         if not (os.path.exists(big) and os.path.exists(small)):
             src = img.get("source") or img["url"]
-            # Commons asks clients to use its standard thumbnail steps.
-            url = re.sub(r"/(\d+)px-", "/500px-", src) if "/thumb/" in src else src
-            data = wiki.get_bytes(url)
+            src = src.split("?")[0]
+            # Commons only serves its standard thumbnail steps; never upscale.
+            w = img.get("w") or 500
+            m = re.match(r"(https://upload\.wikimedia\.org/wikipedia/commons)/(?:thumb/)?([0-9a-f]/[0-9a-f]{2}/[^/]+)", src)
+            cands = []
+            if m:
+                base, fpath = m.group(1), m.group(2)
+                fname = fpath.split("/")[-1]
+                cands = [f"{base}/thumb/{fpath}/{s}px-{fname}" for s in (500, 330, 250, 120) if s <= max(w, 120)]
+                cands.append(f"{base}/{fpath}")
+            else:
+                cands = [src]
+            data, url = None, cands[0]
+            for url in cands:
+                data = wiki.get_bytes(url, tries=int(os.environ.get("IMG_TRIES", "4")))
+                if data:
+                    break
+            url = cands[0] if not data else url
             if not data:
-                print("skip", n["id"])
+                # Not self-hosted (yet): point at Commons' standard-size thumbnails,
+                # which Wikimedia allows for direct use.
+                img.setdefault("source", src)
+                img["url"] = url
+                img["thumb"] = re.sub(r"/(\d+)px-", "/120px-", url) if "/thumb/" in url and (img.get("w") or 0) >= 120 else url
+                print("remote", n["id"])
                 continue
             im = Image.open(io.BytesIO(data)).convert("RGB")
             im.thumbnail((500, 700))

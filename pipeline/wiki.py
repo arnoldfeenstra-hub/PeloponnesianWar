@@ -171,16 +171,16 @@ def _get_text(url):
     raise RuntimeError(f"failed {url} -> {r.status_code}")
 
 
-def get_bytes(url):
+def get_bytes(url, tries=10):
     """Cached binary GET (Commons thumbnails)."""
     key = hashlib.sha1(url.encode()).hexdigest()
     path = os.path.join(CACHE, key + ".bin")
     if os.path.exists(path):
         with open(path, "rb") as f:
             return f.read()
-    delay = 2.0
-    for _ in range(10):
-        wait = 0.6 - (time.time() - _last[0])
+    delay = 3.0
+    for _ in range(tries):
+        wait = 1.0 - (time.time() - _last[0])
         if wait > 0:
             time.sleep(wait)
         _last[0] = time.time()
@@ -191,7 +191,6 @@ def get_bytes(url):
             return r.content
         if r.status_code == 404:
             return None
-        ra = r.headers.get("retry-after")
-        time.sleep(max(delay, float(ra) if ra and ra.isdigit() else 0))
-        delay = min(delay * 2, 60)
+        time.sleep(delay)
+        delay = min(delay * 2, 30)
     return None

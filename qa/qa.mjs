@@ -44,12 +44,14 @@ try {
   const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 2, ignoreHTTPSErrors: true });
   const errors = [];
   page.on("pageerror", (e) => errors.push(e.message));
-  page.on("console", (m) => { if (m.type() === "error" && !/api\/graph|404/.test(m.text())) errors.push(m.text()); });
+  const failed = [];
+  page.on("requestfailed", (r) => failed.push(r.url().slice(0, 90) + " " + r.failure()?.errorText));
+  page.on("console", (m) => { if (m.type() === "error" && !/api\/graph|404|fonts\.g|CERT/.test(m.text())) errors.push(m.text()); });
   const t0 = Date.now();
-  await page.goto(BASE + "/#graph", { waitUntil: "networkidle" });
+  await page.goto(BASE + "/#graph", { waitUntil: "domcontentloaded" });
   await page.waitForFunction(() => window.__app?.model?.nodes?.length > 0, null, { timeout: 20000 });
   const info = await page.evaluate(() => ({ nodes: __app.model.nodes.length, links: __app.model.links.length, source: __app.source }));
-  check("data loads", info.nodes > 100, `${info.nodes} nodes, ${info.links} links from ${info.source} in ${Date.now() - t0} ms`);
+  check("data loads", info.nodes > 100 && Date.now() - t0 < 6000, `${info.nodes} nodes, ${info.links} links from ${info.source}; interactive in ${Date.now() - t0} ms`);
   await page.waitForTimeout(1200);
   await page.screenshot({ path: OUT + "01-intro.png" });
   await page.click("#intro-go");
@@ -109,6 +111,21 @@ try {
   const pf = await fps(page, 1500);
   check("path animation frame rate", pf.fps >= 30, JSON.stringify(pf));
 
+  // wander: random walk along documented links
+  await page.goto(`${BASE}/#graph/pericles`);
+  await page.waitForTimeout(1200);
+  const walk = [];
+  for (let i = 0; i < 4; i++) {
+    const prev = await page.evaluate(() => __app.selected?.id);
+    await page.click("#wander");
+    await page.waitForTimeout(1100);
+    const cur = await page.evaluate(() => ({ id: __app.selected?.id, toast: document.querySelector("#toast").textContent }));
+    const linked = await page.evaluate(([a, b]) => !!__app.model.linkBetween(__app.model.byId.get(a), __app.model.byId.get(b)), [prev, cur.id]);
+    walk.push({ ...cur, linked });
+  }
+  check("wander follows real links", walk.every((w) => w.linked), walk.map((w) => w.id).join(" → "));
+  await page.screenshot({ path: OUT + "08a-wander.png" });
+
   // year scrubber on graph
   await page.goto(`${BASE}/#graph`);
   await page.waitForTimeout(500);
@@ -128,7 +145,7 @@ try {
   await page.mouse.down();
   await page.mouse.move(hb.x + hb.width * 0.55, hb.y + 20, { steps: 12 });
   await page.mouse.up();
-  const ty = await page.evaluate(() => ({ year: __app.timeline.year, readout: document.querySelector(".ro-year")?.textContent, future: document.querySelectorAll(".tl-item.future").length }));
+  const ty = await page.evaluate(() => ({ year: __app.timeline.year, readout: document.querySelector(".tl-year")?.textContent, note: document.querySelector(".ro-note")?.textContent, future: document.querySelectorAll(".tl-item.future").length }));
   check("timeline scrub", ty.readout?.startsWith(String(-ty.year)) && ty.future > 0, JSON.stringify(ty));
   const tp = await page.evaluate(async () => {
     __app.timeline.togglePlay();
@@ -153,7 +170,27 @@ try {
   await page.screenshot({ path: OUT + "12-light-thucydides.png" });
   await page.click("#theme");
 
-  check("no console errors", errors.length === 0, errors.slice(0, 3).join(" | "));
+  // dark theme
+  const dark = await browser.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 2, ignoreHTTPSErrors: true, colorScheme: "dark" });
+  await dark.addInitScript(() => { try { localStorage.setItem("intro", "1"); } catch {} });
+  await dark.goto(BASE + "/#graph");
+  await dark.waitForTimeout(5000);
+  await dark.screenshot({ path: OUT + "16-dark-graph.png" });
+  await dark.goto(BASE + "/#graph/sicilian-expedition");
+  await dark.waitForTimeout(2500);
+  await dark.screenshot({ path: OUT + "17-dark-sicilian-expedition.png" });
+  await dark.goto(BASE + "/#path/aristophanes/lysander");
+  await dark.waitForTimeout(4500);
+  await dark.screenshot({ path: OUT + "18-dark-six-degrees.png" });
+  await dark.goto(BASE + "/#timeline/brasidas");
+  await dark.waitForTimeout(1500);
+  await dark.screenshot({ path: OUT + "19-dark-timeline.png" });
+  await dark.close();
+
+  // Only Google Fonts may fail here: this sandbox's TLS proxy is not trusted by headless Chromium.
+  const realFailures = failed.filter((f) => !/fonts\.(googleapis|gstatic)\.com|\/api\/graph/.test(f));
+  const realErrors = errors.filter((e) => !/ERR_TOO_MANY_RETRIES|ERR_CERT/.test(e) || realFailures.length);
+  check("no console errors or failed requests", realErrors.length === 0 && realFailures.length === 0, [...realErrors, ...realFailures].slice(0, 3).join(" | ") || `ignored: ${failed.length} font/api requests`);
 
   // mobile
   const mob = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 3, isMobile: true, hasTouch: true, ignoreHTTPSErrors: true });

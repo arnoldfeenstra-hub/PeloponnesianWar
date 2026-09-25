@@ -1,0 +1,86 @@
+{
+ "base": "http://localhost:4173",
+ "at": "2026-09-25T14:01:13.751Z",
+ "results": [
+  {
+   "name": "data loads",
+   "ok": true,
+   "detail": "229 nodes, 1244 links from snapshot; interactive in 260 ms"
+  },
+  {
+   "name": "graph physics frame rate",
+   "ok": true,
+   "detail": "{\"fps\":60,\"p95\":17,\"frames\":148}"
+  },
+  {
+   "name": "graph zoom frame rate",
+   "ok": true,
+   "detail": "{\"fps\":53,\"p95\":50,\"frames\":119}"
+  },
+  {
+   "name": "search selects & focuses",
+   "ok": true,
+   "detail": "{\"hash\":\"#graph/brasidas\",\"title\":\"Brasidas\",\"focus\":24}"
+  },
+  {
+   "name": "hover card",
+   "ok": true,
+   "detail": "Cleon"
+  },
+  {
+   "name": "double-click expands",
+   "ok": true,
+   "detail": "24 → 30"
+  },
+  {
+   "name": "six degrees pericles → lysander",
+   "ok": true,
+   "detail": "2 degrees: Pericles → Adeimantus (son of Leucolophides) → Lysander"
+  },
+  {
+   "name": "six degrees socrates → tissaphernes",
+   "ok": true,
+   "detail": "2 degrees: Socrates → Alcibiades → Tissaphernes"
+  },
+  {
+   "name": "six degrees aristophanes → gylippus",
+   "ok": true,
+   "detail": "2 degrees: Aristophanes → Alcibiades → Gylippus"
+  },
+  {
+   "name": "path animation frame rate",
+   "ok": true,
+   "detail": "{\"fps\":57,\"p95\":17,\"frames\":84}"
+  },
+  {
+   "name": "wander follows real links",
+   "ok": true,
+   "detail": "affair-of-epidamnus → history-of-the-peloponnesian-war → thucydides → sicilian-expedition"
+  },
+  {
+   "name": "graph year filter",
+   "ok": true,
+   "detail": "182 nodes visible as of 421 BC"
+  },
+  {
+   "name": "timeline scrub",
+   "ok": true,
+   "detail": "{\"year\":-421,\"readout\":\"421 BC\",\"note\":\"Year 11 of the war · 74 figures within their known lifespans\",\"future\":42}"
+  },
+  {
+   "name": "timeline playback frame rate",
+   "ok": true,
+   "detail": "{\"fps\":60}"
+  },
+  {
+   "name": "no console errors or failed requests",
+   "ok": true,
+   "detail": "ignored: 2 font/api requests"
+  },
+  {
+   "name": "mobile: no horizontal overflow",
+   "ok": true,
+   "detail": ""
+  }
+ ]
+}

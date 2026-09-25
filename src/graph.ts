@@ -390,9 +390,13 @@ export class GraphView {
     ctx.textBaseline = "bottom";
     const [lx] = t.invert([16, 0]);
     const [rx] = t.invert([this.w, 0]);
-    for (const y of [-435, -431, -425, -421, -415, -413, -411, -405, -404, -400]) {
+    let lastLabelY = -Infinity;
+    for (const y of [-435, -431, -425, -421, -415, -413, -411, -404, -400]) {
       const yy = yearToY(y);
       const major = y === this.model.war.start || y === this.model.war.end;
+      const sy = yy * k + t.y;
+      const showLabel = major || sy - lastLabelY > 16;
+      if (showLabel) lastLabelY = sy;
       ctx.strokeStyle = pal.faint;
       ctx.globalAlpha = major ? 0.9 : 0.45;
       ctx.lineWidth = (major ? 1 : 0.6) / k;
