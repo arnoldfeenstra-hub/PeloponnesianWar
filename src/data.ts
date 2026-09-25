@@ -63,7 +63,7 @@ export function dateLine(n: RawNode): string {
 
 export async function fetchGraph(): Promise<{ graph: Graph; source: "database" | "snapshot" }> {
   try {
-    const r = await fetch("/api/graph", { headers: { accept: "application/json" } });
+    const r = await fetch("/api/graph"); // matches the <link rel="preload"> in index.html
     if (r.ok) {
       const g = await r.json();
       if (g?.nodes?.length) return { graph: g, source: "database" };
