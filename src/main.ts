@@ -165,7 +165,7 @@ class App {
     const hero = img
       ? `<figure class="hero"><img src="${esc(img.url)}" alt="${esc(n.title)}" loading="lazy"><figcaption>${esc(stripHtml(img.artist ?? "Unknown"))} · <a href="${esc(img.page)}" target="_blank" rel="noopener">${esc(img.license)}, Wikimedia Commons</a></figcaption></figure>`
       : art
-      ? `<figure class="hero art"><img src="${esc(art.url)}" alt="Illustration for ${esc(n.title)}" loading="lazy"><figcaption><span class="ai">AI illustration</span> generated with ChatGPT Image · decorative, not a historical source</figcaption></figure>`
+      ? `<figure class="hero art"><img src="${esc(art.url)}" alt="Illustration for ${esc(n.title)}" loading="lazy"><figcaption><span class="ai">AI illustration</span> ${esc(art.model)} · decorative, not a historical source</figcaption></figure>`
       : `<div class="hero glyph t-${n.type} s-${n.side ?? "none"}"><span>${esc(initials(n.title))}</span></div>`;
     const facts: string[] = [];
     if (dateLine(n)) facts.push(`<div><dt>${n.type === "person" ? "Lived" : "Date"}</dt><dd>${esc(dateLine(n))}</dd></div>`);
@@ -419,6 +419,8 @@ class App {
     const c = (t: NodeType) => this.model.nodes.filter((n) => n.type === t).length;
     const withImg = this.model.nodes.filter((n) => n.img).length;
     const withArt = this.model.nodes.filter((n) => n.art).length;
+    const models = [...new Set(this.model.nodes.flatMap((n) => (n.art ? [n.art.model] : [])))];
+    $("#art-credit").textContent = models.length ? ` Illustrations: AI-generated with ${models.join(" and ")}; decorative.` : "";
     const mentions = this.model.links.filter((l) => l.types.has("mentions")).length;
     const stats = `<b>${c("person")}</b> figures · <b>${c("event")}</b> events · <b>${c("polity")}</b> polities · <b>${c("work")}</b> works · <b>${this.model.links.length}</b> connections`;
     document.querySelectorAll(".stats").forEach((e) => (e.innerHTML = stats));

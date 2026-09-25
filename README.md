@@ -20,7 +20,7 @@ No fact in this project is written by AI. `pipeline/` pulls everything from the 
 | `discover.py` | Takes seeds from Wikipedia's own curation: the *People / Athenians / Spartans of the Peloponnesian War* categories, the *(Naval) battles of the Peloponnesian War* categories, and the war's campaign navbox. |
 | `build.py` | Fetches wikitext, leads, talk pages ("Did you know" hooks) and Commons licences. It derives the entities and edges described below. |
 | `images.py` | Self-hosts the public-domain / CC0 Commons images, using Commons' standard thumbnail size. |
-| `artwork.py` | Optional. Generates decorative illustrations with ChatGPT Image (needs `OPENAI_API_KEY`). Prompts use only each node's Wikipedia title and short description, and the app labels the output "AI illustration". |
+| `artwork.py` | Optional. Generates decorative illustrations with FLUX.1-schnell on Cloudflare Workers AI (`CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`) and Hugging Face (`HF_TOKEN`), round-robin with fallback, or ChatGPT Image (`OPENAI_API_KEY`). Prompts use only each node's Wikipedia title and short description, and the app labels the output "AI illustration" with the model that made it. |
 
 What `build.py` derives:
 
@@ -54,4 +54,4 @@ BASE_URL=https://<deployment> npm run qa   # Playwright screenshots + checks
 
 - **Text:** Wikipedia contributors, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Attribution is required, so each card links its article and revision.
 - **Images:** Wikimedia Commons, public domain / CC0, with the author and file credited on each card.
-- **Illustrations:** generated with ChatGPT Image. They are decorative and not historical evidence.
+- **Illustrations:** AI-generated (the model is named on each card and in the footer). They are decorative and not historical evidence.
