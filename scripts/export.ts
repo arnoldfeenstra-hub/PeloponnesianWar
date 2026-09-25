@@ -11,13 +11,17 @@ function dsn(): string {
       if (["DATABASE_URL", "POSTGRES_URL"].includes(k.trim())) return rest.join("=").trim().replace(/^['"]|['"]$/g, "");
     }
   }
-  throw new Error("DATABASE_URL not set");
+  return "";
 }
 
-const local = /localhost|127\.0\.0\.1|\/var\/run/.test(dsn());
+if (!dsn()) {
+  console.log("export: DATABASE_URL not set, keeping the committed public/graph.json");
+  process.exit(0);
+}
+const local = /@(localhost|127\.0\.0\.1)[:/]|host=\/|sslmode=disable/.test(dsn());
 const pool = new pg.Pool({ connectionString: dsn(), ssl: local ? false : { rejectUnauthorized: false } });
 const g = await loadGraph(pool);
 fs.mkdirSync("public", { recursive: true });
 fs.writeFileSync("public/graph.json", JSON.stringify(g));
-console.log(`exported ${g.nodes.length} nodes, ${g.edges.length} edges`);
+console.log(`export: wrote public/graph.json from Postgres (${g.nodes.length} nodes, ${g.edges.length} edges)`);
 await pool.end();

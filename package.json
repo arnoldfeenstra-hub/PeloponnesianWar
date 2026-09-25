@@ -12,7 +12,9 @@
     "data:art": "python3 pipeline/artwork.py",
     "db:load": "python3 db/load.py",
     "db:export": "node --experimental-strip-types scripts/export.ts",
-    "qa": "node qa/qa.mjs"
+    "qa": "node qa/qa.mjs",
+    "db:seed": "node scripts/seed.mjs",
+    "build:vercel": "node scripts/seed.mjs && node --experimental-strip-types scripts/export.ts && vite build"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",

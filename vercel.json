@@ -1,11 +1,31 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "vite",
-  "buildCommand": "vite build",
+  "buildCommand": "node scripts/seed.mjs && node --experimental-strip-types scripts/export.ts && vite build",
   "outputDirectory": "dist",
-  "functions": { "api/graph.ts": { "maxDuration": 10 } },
+  "functions": {
+    "api/graph.ts": {
+      "maxDuration": 10
+    }
+  },
   "headers": [
-    { "source": "/graph.json", "headers": [{ "key": "Cache-Control", "value": "public, max-age=300, s-maxage=86400" }] },
-    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }
+    {
+      "source": "/graph.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=86400"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
   ]
 }
