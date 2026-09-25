@@ -1,5 +1,7 @@
 # The Peloponnesian War: a web of people & events
 
+**Live:** https://peloponnesian-war-fean.vercel.app. It runs on Vercel, and the data lives in the Neon project `peloponnesian-war`.
+
 An explorable knowledge graph of the Peloponnesian War (431–404 BC). It has three views:
 
 - **Graph**: a force-directed web on canvas. Athens pulls left, Sparta right and Persia below; dated nodes settle top to bottom by year.
@@ -44,7 +46,7 @@ The app reads `/api/graph`, a Vercel function that queries Neon through `lib/gra
 npm install
 npm run dev                   # http://localhost:5173
 npm run build && npm run preview
-vercel deploy --prod          # set DATABASE_URL in the Vercel project
+git push                      # Vercel (Git-connected) builds: seed Neon -> export snapshot -> vite
 BASE_URL=https://<deployment> npm run qa   # Playwright screenshots + checks
 ```
 

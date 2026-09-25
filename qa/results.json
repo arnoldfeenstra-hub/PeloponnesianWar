@@ -1,21 +1,21 @@
 {
- "base": "http://localhost:4173",
- "at": "2026-09-25T14:01:13.751Z",
+ "base": "https://peloponnesian-war-fean.vercel.app",
+ "at": "2026-09-25T14:45:19.374Z",
  "results": [
   {
    "name": "data loads",
    "ok": true,
-   "detail": "229 nodes, 1244 links from snapshot; interactive in 260 ms"
+   "detail": "229 nodes, 1244 links from database; server: html 53 ms, js 55 ms, api 71 ms (page interactive in 1252 ms)"
   },
   {
    "name": "graph physics frame rate",
    "ok": true,
-   "detail": "{\"fps\":60,\"p95\":17,\"frames\":148}"
+   "detail": "{\"fps\":60,\"p95\":17,\"frames\":149}"
   },
   {
    "name": "graph zoom frame rate",
    "ok": true,
-   "detail": "{\"fps\":53,\"p95\":50,\"frames\":119}"
+   "detail": "{\"fps\":54,\"p95\":33,\"frames\":119}"
   },
   {
    "name": "search selects & focuses",
@@ -50,12 +50,12 @@
   {
    "name": "path animation frame rate",
    "ok": true,
-   "detail": "{\"fps\":57,\"p95\":17,\"frames\":84}"
+   "detail": "{\"fps\":58,\"p95\":17,\"frames\":87}"
   },
   {
    "name": "wander follows real links",
    "ok": true,
-   "detail": "affair-of-epidamnus → history-of-the-peloponnesian-war → thucydides → sicilian-expedition"
+   "detail": "history-of-the-peloponnesian-war → battle-of-delium → peace-of-nicias → brasidas"
   },
   {
    "name": "graph year filter",
@@ -75,7 +75,7 @@
   {
    "name": "no console errors or failed requests",
    "ok": true,
-   "detail": "ignored: 2 font/api requests"
+   "detail": "ignored: 0 font/api requests"
   },
   {
    "name": "mobile: no horizontal overflow",
