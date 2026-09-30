@@ -9,7 +9,7 @@ it errors or runs out of free quota):
   cloudflare   FLUX.1-schnell on Cloudflare Workers AI
                needs CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN
   huggingface  FLUX.1-schnell on Hugging Face Inference Providers
-               needs HF_TOKEN
+               needs HF_TOKEN (or HFToken)
   openai       gpt-image-1 (ChatGPT Image), needs OPENAI_API_KEY
 
     python3 pipeline/artwork.py [--limit N] [--only id,id] [--all] [--providers cloudflare,huggingface]
@@ -60,7 +60,7 @@ def cloudflare(prompt, seed):
 
 
 def huggingface(prompt, seed):
-    tok = os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_TOKEN")
+    tok = os.environ.get("HF_TOKEN") or os.environ.get("HFToken") or os.environ.get("HUGGINGFACE_TOKEN")
     r = requests.post("https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell",
                       headers={"Authorization": f"Bearer {tok}", "Accept": "image/jpeg"},
                       json={"inputs": prompt, "parameters": {"seed": seed, "num_inference_steps": 4,
@@ -91,7 +91,7 @@ PROVIDERS = {
     "cloudflare": (cloudflare, "FLUX.1-schnell via Cloudflare Workers AI",
                    lambda: os.environ.get("CLOUDFLARE_ACCOUNT_ID") and os.environ.get("CLOUDFLARE_API_TOKEN")),
     "huggingface": (huggingface, "FLUX.1-schnell via Hugging Face",
-                    lambda: os.environ.get("HF_TOKEN") or os.environ.get("HUGGINGFACE_TOKEN")),
+                    lambda: os.environ.get("HF_TOKEN") or os.environ.get("HFToken") or os.environ.get("HUGGINGFACE_TOKEN")),
     "openai": (openai, "ChatGPT Image (gpt-image-1)", lambda: os.environ.get("OPENAI_API_KEY")),
 }
 
@@ -110,7 +110,7 @@ def main():
 
     active = [p for p in args.providers.split(",") if p in PROVIDERS and PROVIDERS[p][2]()]
     if not active:
-        sys.exit("no image provider credentials set (CLOUDFLARE_ACCOUNT_ID+CLOUDFLARE_API_TOKEN, HF_TOKEN, or OPENAI_API_KEY)")
+        sys.exit("no image provider credentials set (CLOUDFLARE_ACCOUNT_ID+CLOUDFLARE_API_TOKEN, HF_TOKEN/HFToken, or OPENAI_API_KEY)")
     print("providers:", ", ".join(active))
 
     g = json.load(open(os.path.join(ROOT, "data", "graph.raw.json")))
