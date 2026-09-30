@@ -1,20 +1,8 @@
 [
  {
-  "node_id": "battle-of-delium",
-  "url": "/art/battle-of-delium.jpg",
-  "model": "FLUX.1-schnell via Hugging Face",
-  "prompt": "Editorial illustration in the manner of an ancient Greek red-figure vase painting: terracotta figures with fine black line work on a deep black ground, a thin meander border, restrained, elegant, no text, no letters, no modern objects. Subject: a scene of Battle of Delium, 424 BC military engagement during the Peloponnesian War."
- },
- {
   "node_id": "cleon",
   "url": "/art/cleon.jpg",
   "model": "FLUX.1-schnell via Hugging Face",
   "prompt": "Editorial illustration in the manner of an ancient Greek red-figure vase painting: terracotta figures with fine black line work on a deep black ground, a thin meander border, restrained, elegant, no text, no letters, no modern objects. Subject: a portrait of Cleon, Athenian statesman and general (died 422 BC)."
- },
- {
-  "node_id": "lysistrata",
-  "url": "/art/lysistrata.jpg",
-  "model": "FLUX.1-schnell via Hugging Face",
-  "prompt": "Editorial illustration in the manner of an ancient Greek red-figure vase painting: terracotta figures with fine black line work on a deep black ground, a thin meander border, restrained, elegant, no text, no letters, no modern objects. Subject: an evocation of the ancient work Lysistrata, Comedy by Aristophanes."
  }
 ]

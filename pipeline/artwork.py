@@ -33,7 +33,7 @@ ROOT = os.path.join(os.path.dirname(__file__), "..")
 # Everything below except the node's title and short description is generic period
 # styling, not a claim about the node.
 PERIOD = ("Historically accurate reconstruction of the late 5th century BC: buildings intact, newly built "
-          "and painted, never ruins; authentic classical Greek dress, arms and armour, never Roman. "
+          "and painted, never ruins; authentic dress, arms and armour of the people shown, never Roman. "
           "Natural light, subtle film grain, fine detail. No text, no letters, no modern objects.")
 CAMERA = {
     "person": ("Documentary portrait photograph, full-frame camera, 85mm lens at f/2, soft side daylight, "
@@ -60,7 +60,8 @@ def prompt_for(n):
     subject, text = f"{n['title']}{desc}", f"{n['title']} {n.get('desc') or ''}".lower()
     t = n["type"]
     if t == "person":
-        return f"A photorealistic portrait of {subject}, as a real person of ancient Greece. {CAMERA['person']} {PERIOD}"
+        world = "the Achaemenid Persian Empire" if n.get("side") == "persia" else "the ancient Greek world"
+        return f"A photorealistic portrait of {subject}, as a real person of {world}. {CAMERA['person']} {PERIOD}"
     if t == "event":
         if any(w in text for w in ("naval", "sea battle", "fleet")):
             cam = CAMERA["naval"]
@@ -72,7 +73,7 @@ def prompt_for(n):
     if t == "work":
         cam = CAMERA["play"] if any(w in text for w in ("play", "comedy", "tragedy", "drama", "satyr")) else CAMERA["work"]
         return f"A photorealistic evocation of the ancient work {subject}. {cam} {PERIOD}"
-    return f"A photorealistic view of {subject}. {CAMERA['polity']} {PERIOD}"
+    return f"A photorealistic view of {subject}, as it was in the late 5th century BC. {CAMERA['polity']} {PERIOD}"
 
 
 class QuotaOrAuth(Exception):
