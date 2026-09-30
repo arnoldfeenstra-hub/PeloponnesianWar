@@ -8,8 +8,8 @@ Providers (used together, round-robin, each falling back to the others when
 it errors or runs out of free quota):
   cloudflare   FLUX.1-schnell on Cloudflare Workers AI
                needs CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN
-  huggingface  FLUX.1-schnell on Hugging Face Inference Providers
-               needs HF_TOKEN (or HFToken)
+  huggingface  FLUX.1-schnell on Hugging Face Inference Providers (nscale)
+               needs HF_TOKEN (or HFToken, or an hf_ token in KEY)
   openai       gpt-image-1 (ChatGPT Image), needs OPENAI_API_KEY
 
     python3 pipeline/artwork.py [--limit N] [--only id,id] [--all] [--providers cloudflare,huggingface]
@@ -59,21 +59,26 @@ def cloudflare(prompt, seed):
     return base64.b64decode(img)
 
 
-def huggingface(prompt, seed):
+def hf_token():
     tok = os.environ.get("HF_TOKEN") or os.environ.get("HFToken") or os.environ.get("HUGGINGFACE_TOKEN")
-    r = requests.post("https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell",
-                      headers={"Authorization": f"Bearer {tok}", "Accept": "image/jpeg"},
-                      json={"inputs": prompt, "parameters": {"seed": seed, "num_inference_steps": 4,
-                                                             "width": 768, "height": 768}}, timeout=180)
+    key = os.environ.get("KEY", "")
+    return tok or (key if key.startswith("hf_") else None)
+
+
+def huggingface(prompt, seed):
+    # hf-inference itself no longer serves FLUX.1-schnell (410 Gone); route to nscale.
+    r = requests.post("https://router.huggingface.co/nscale/v1/images/generations",
+                      headers={"Authorization": f"Bearer {hf_token()}"},
+                      json={"model": "black-forest-labs/FLUX.1-schnell", "prompt": prompt, "seed": seed,
+                            "num_inference_steps": 4, "size": "768x768", "response_format": "b64_json"},
+                      timeout=180)
     if r.status_code in (401, 402, 403, 429):
         raise QuotaOrAuth(f"huggingface {r.status_code}")
-    if r.status_code == 503:  # model warming up
-        time.sleep(20)
-        raise RuntimeError("huggingface: model loading")
     r.raise_for_status()
-    if not r.headers.get("content-type", "").startswith("image/"):
-        raise RuntimeError("huggingface: non-image response")
-    return r.content
+    img = (r.json().get("data") or [{}])[0].get("b64_json")
+    if not img:
+        raise RuntimeError("huggingface: no image in response")
+    return base64.b64decode(img)
 
 
 def openai(prompt, seed):
@@ -91,7 +96,7 @@ PROVIDERS = {
     "cloudflare": (cloudflare, "FLUX.1-schnell via Cloudflare Workers AI",
                    lambda: os.environ.get("CLOUDFLARE_ACCOUNT_ID") and os.environ.get("CLOUDFLARE_API_TOKEN")),
     "huggingface": (huggingface, "FLUX.1-schnell via Hugging Face",
-                    lambda: os.environ.get("HF_TOKEN") or os.environ.get("HFToken") or os.environ.get("HUGGINGFACE_TOKEN")),
+                    hf_token),
     "openai": (openai, "ChatGPT Image (gpt-image-1)", lambda: os.environ.get("OPENAI_API_KEY")),
 }
 
@@ -110,7 +115,7 @@ def main():
 
     active = [p for p in args.providers.split(",") if p in PROVIDERS and PROVIDERS[p][2]()]
     if not active:
-        sys.exit("no image provider credentials set (CLOUDFLARE_ACCOUNT_ID+CLOUDFLARE_API_TOKEN, HF_TOKEN/HFToken, or OPENAI_API_KEY)")
+        sys.exit("no image provider credentials set (CLOUDFLARE_ACCOUNT_ID+CLOUDFLARE_API_TOKEN, HF_TOKEN/HFToken/KEY, or OPENAI_API_KEY)")
     print("providers:", ", ".join(active))
 
     g = json.load(open(os.path.join(ROOT, "data", "graph.raw.json")))
