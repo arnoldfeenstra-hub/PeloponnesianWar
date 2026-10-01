@@ -10,6 +10,8 @@
     "typecheck": "tsc --noEmit",
     "data:fetch": "python3 pipeline/discover.py && python3 pipeline/build.py && python3 pipeline/images.py",
     "data:art": "python3 pipeline/artwork.py",
+    "art:prompts": "python3 pipeline/chatgpt_art.py export",
+    "art:import": "python3 pipeline/chatgpt_art.py import",
     "db:load": "python3 db/load.py",
     "db:export": "node --experimental-strip-types scripts/export.ts",
     "qa": "node qa/qa.mjs",

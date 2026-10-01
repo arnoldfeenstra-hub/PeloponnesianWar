@@ -4,6 +4,14 @@
 import fs from "node:fs";
 import pg from "pg";
 
+// Preview and development builds share production's DATABASE_URL, and seeding
+// replaces every table, so only production builds may write. (Previews still
+// read it in the export step.)
+const env = process.env.VERCEL_ENV;
+if (env && env !== "production") {
+  console.log(`seed: VERCEL_ENV=${env}, skipping so this build cannot overwrite the production database`);
+  process.exit(0);
+}
 const url = process.env.DATABASE_URL || process.env.POSTGRES_URL;
 if (!url) {
   console.log("seed: DATABASE_URL not set, skipping (the committed snapshot is used)");

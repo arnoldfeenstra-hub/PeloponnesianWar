@@ -20,7 +20,8 @@ No fact in this project is written by AI. `pipeline/` pulls everything from the 
 | `discover.py` | Takes seeds from Wikipedia's own curation: the *People / Athenians / Spartans of the Peloponnesian War* categories, the *(Naval) battles of the Peloponnesian War* categories, and the war's campaign navbox. |
 | `build.py` | Fetches wikitext, leads, talk pages ("Did you know" hooks) and Commons licences. It derives the entities and edges described below. |
 | `images.py` | Self-hosts the public-domain / CC0 Commons images, using Commons' standard thumbnail size. |
-| `artwork.py` | Optional. Generates decorative illustrations with FLUX.1-schnell on Cloudflare Workers AI (`CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`) and Hugging Face (`HF_TOKEN`), round-robin with fallback, or ChatGPT Image (`OPENAI_API_KEY`). Prompts use only each node's Wikipedia title and short description, and the app labels the output "AI illustration" with the model that made it. |
+| `artwork.py` | Optional. Generates photorealistic, period-accurate illustrations. The best model is FLUX.1-Krea-dev on Hugging Face (`HF_TOKEN`, served by fal; needs Inference Providers credits). FLUX.1-schnell on Cloudflare Workers AI (`CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN`) and ChatGPT Image (`OPENAI_API_KEY`) are round-robin fallbacks. The only node-specific text in a prompt is its Wikipedia title and short description; the rest is generic period styling. The app labels the output "AI illustration" with the model that made it. |
+| `chatgpt_art.py` | Optional, by hand. `export` writes `data/artwork-prompts.md` (the same prompts, most-connected nodes first). Generate each one in ChatGPT, save it as `007.png` (list number) or `<node id>.png`, then run `import <folder>` to crop, resize and record them as "ChatGPT Image". |
 
 What `build.py` derives:
 
@@ -47,6 +48,7 @@ npm install
 npm run dev                   # http://localhost:5173
 npm run build && npm run preview
 git push                      # Vercel (Git-connected) builds: seed Neon -> export snapshot -> vite
+                              # (only production builds seed; previews just read Neon)
 BASE_URL=https://<deployment> npm run qa   # Playwright screenshots + checks
 ```
 
