@@ -48,6 +48,7 @@ npm install
 npm run dev                   # http://localhost:5173
 npm run build && npm run preview
 git push                      # Vercel (Git-connected) builds: seed Neon -> export snapshot -> vite
+                              # (only production builds seed; previews just read Neon)
 BASE_URL=https://<deployment> npm run qa   # Playwright screenshots + checks
 ```
 
